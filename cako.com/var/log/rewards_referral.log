@@ -1,0 +1,686 @@
+2012-07-12T17:42:03+00:00 DEBUG (7): The referral email in the session is invalid: lisa@veooptics.com
+2012-07-12T17:42:04+00:00 DEBUG (7): Lisa@veooptics.com is your own e-mail address.
+2012-07-17T22:28:33+00:00 DEBUG (7): Customer with e-mail luvlucaskidz@aol.com tried to refer his/her self luvlucaskidz@aol.com.
+2012-07-21T00:47:46+00:00 DEBUG (7): Customer with e-mail margie_chung@itvs.org tried to refer his/her self margie_chung@itvs.org.
+2012-07-24T16:17:45+00:00 DEBUG (7): The referral email in the session is invalid: jblee@shb.com
+2012-07-24T16:17:46+00:00 DEBUG (7): The referral email in the session is invalid: jblee@shb.com
+2012-07-24T16:25:43+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2012-07-24T16:26:00+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2012-07-24T16:34:13+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2012-07-25T06:09:59+00:00 DEBUG (7): Customer with e-mail momome@gmail.com tried to refer his/her self momome@gmail.com.
+2012-07-26T03:55:21+00:00 DEBUG (7): Customer with e-mail emilya.bainbridge@gmail.com tried to refer his/her self emilya.bainbridge@gmail.com.
+2012-07-27T01:16:53+00:00 DEBUG (7): Customer with e-mail nancy@groupbookers.com tried to refer his/her self nancy@groupbookers.com.
+2012-07-31T17:43:26+00:00 DEBUG (7): Customer with e-mail christina_griffin2002@yahoo.com tried to refer his/her self christina_griffin2002@yahoo.com.
+2012-07-31T22:53:13+00:00 DEBUG (7): Customer with e-mail rkwickliffe@aol.com tried to refer his/her self rkwickliffe@aol.com.
+2012-08-06T23:15:04+00:00 DEBUG (7): The referral email in the session is invalid: carpenterjasmine@gmail.com
+2012-08-15T21:27:34+00:00 DEBUG (7): Customer with e-mail jeani@unionsquarebid.com tried to refer his/her self jeani@unionsquarebid.com.
+2012-08-31T19:11:17+00:00 DEBUG (7): The referral email in the session is invalid: =OÕs¯Å›
+2012-08-31T19:11:27+00:00 DEBUG (7): The referral email in the session is invalid: =OÕs¯Å›
+2012-08-31T19:11:55+00:00 DEBUG (7): The referral email in the session is invalid: =OÕs¯Å›
+2012-08-31T19:12:37+00:00 DEBUG (7): The referral email in the session is invalid: tokenindianguy@gmail.com
+2012-08-31T19:22:45+00:00 DEBUG (7): The referral email in the session is invalid: =OÕs¯Å›
+2012-08-31T22:18:58+00:00 DEBUG (7): Customer with e-mail ashleigh@pistoncloud.com tried to refer his/her self ashleigh@pistoncloud.com.
+2012-09-02T00:07:58+00:00 DEBUG (7): Customer with e-mail just_win50@hotmail.com tried to refer his/her self just_win50@hotmail.com.
+2012-09-03T03:27:38+00:00 DEBUG (7): Customer with e-mail emannbailar@gmail.com tried to refer his/her self emannbailar@gmail.com.
+2012-09-03T17:55:41+00:00 DEBUG (7): Customer with e-mail sayds1016@gmail.com tried to refer his/her self sayds1016@gmail.com.
+2012-09-10T18:16:27+00:00 DEBUG (7): Customer with e-mail thill@mpbf.com tried to refer his/her self thill@mpbf.com.
+2012-09-14T13:57:17+00:00 DEBUG (7): Customer with e-mail lisamarx@gmail.com tried to refer his/her self lisamarx@gmail.com.
+2012-09-19T23:03:49+00:00 DEBUG (7): The referral email in the session is invalid: gabriel.vancea@acquitygroup.com
+2012-09-19T23:08:58+00:00 DEBUG (7): Customer with e-mail gabriel.vancea@acquitygroup.com tried to refer his/her self gabriel.vancea@acquitygroup.com.
+2012-09-19T23:25:18+00:00 DEBUG (7): Customer with e-mail gabriel.vancea@acquitygroup.com tried to refer his/her self gabriel.vancea@acquitygroup.com.
+2012-09-20T15:25:09+00:00 DEBUG (7): Customer with e-mail ttyeskey@gmail.com tried to refer his/her self ttyeskey@gmail.com.
+2012-09-21T18:57:53+00:00 DEBUG (7): The referral email in the session is invalid: ¢±ıb˘0„
+2012-09-21T18:57:54+00:00 DEBUG (7): The referral email in the session is invalid: ¢±ıb˘0„
+2012-09-22T00:48:49+00:00 DEBUG (7): Customer with e-mail phaing.samantha@hotmail.com tried to refer his/her self phaing.samantha@hotmail.com.
+2012-09-29T17:50:52+00:00 DEBUG (7): The referral email in the session is invalid: tyhua@yahoo.com
+2012-10-04T16:43:32+00:00 DEBUG (7): Customer with e-mail dotmanning@hotmail.com tried to refer his/her self dotmanning@hotmail.com.
+2012-10-04T18:37:09+00:00 DEBUG (7): Customer with e-mail abbysilva93@yahoo.com tried to refer his/her self abbysilva93@yahoo.com.
+2012-10-06T15:00:22+00:00 DEBUG (7): Customer with e-mail nicky@nickyreyes.com tried to refer his/her self nicky@nickyreyes.com.
+2012-10-07T07:40:05+00:00 DEBUG (7): Customer with e-mail jmichelle1230@gmail.com tried to refer his/her self jmichelle1230@gmail.com.
+2012-10-10T18:15:03+00:00 DEBUG (7): Customer with e-mail brianw1975@gmail.com tried to refer his/her self brianw1975@gmail.com.
+2012-10-11T00:18:06+00:00 DEBUG (7): Customer with e-mail r.almatouq@hotmail.com tried to refer his/her self r.almatouq@hotmail.com.
+2012-10-13T23:55:52+00:00 DEBUG (7): Customer with e-mail miaonafeng@gmail.com tried to refer his/her self miaonafeng@gmail.com.
+2012-10-18T22:08:04+00:00 DEBUG (7): Customer with e-mail lnowatzki@hcp-usa.com tried to refer his/her self lnowatzki@hcp-usa.com.
+2012-10-26T16:56:25+00:00 DEBUG (7): Customer with e-mail gakire@yahoo.com tried to refer his/her self gakire@yahoo.com.
+2012-11-05T05:23:47+00:00 DEBUG (7): Customer with e-mail ailenenava@yahoo.com tried to refer his/her self ailenenava@yahoo.com.
+2012-11-05T10:10:59+00:00 DEBUG (7): Customer with e-mail donghee_kim@yahoo.co.kr tried to refer his/her self donghee_kim@yahoo.co.kr.
+2012-11-05T10:12:07+00:00 DEBUG (7): Customer with e-mail donghee_kim@yahoo.co.kr tried to refer his/her self donghee_kim@yahoo.co.kr.
+2012-11-05T17:40:39+00:00 DEBUG (7): Customer with e-mail kkryssiec@gmail.com tried to refer his/her self kkryssiec@gmail.com.
+2012-11-07T21:47:31+00:00 DEBUG (7): The referral email in the session is invalid: nartef538@yahoo.com
+2012-11-08T20:31:50+00:00 DEBUG (7): Customer with e-mail blackdutch@gmail.com tried to refer his/her self blackdutch@gmail.com.
+2012-11-13T20:36:50+00:00 DEBUG (7): Customer with e-mail gilly.malmquist@lithium.com tried to refer his/her self gilly.malmquist@lithium.com.
+2012-11-14T17:02:13+00:00 DEBUG (7): Customer with e-mail megan.fister@bazaarvoice.com tried to refer his/her self megan.fister@bazaarvoice.com.
+2012-11-14T22:01:43+00:00 DEBUG (7): Customer with e-mail samantha.gaske@teamaol.com tried to refer his/her self samantha.gaske@teamaol.com.
+2012-11-15T07:23:02+00:00 DEBUG (7): Customer with e-mail dianarusgal@gmail.com tried to refer his/her self dianarusgal@gmail.com.
+2012-11-20T21:20:55+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2012-11-24T22:57:12+00:00 DEBUG (7): Customer with e-mail hongjulie@ymail.com tried to refer his/her self hongjulie@ymail.com.
+2012-11-26T01:22:38+00:00 DEBUG (7): Customer with e-mail luanakchen@yahoo.com tried to refer his/her self luanakchen@yahoo.com.
+2012-11-27T05:42:24+00:00 DEBUG (7): Customer with e-mail rosemary.fraser@searshc.com tried to refer his/her self rosemary.fraser@searshc.com.
+2012-11-27T05:55:49+00:00 DEBUG (7): Customer with e-mail rosemary.fraser@searshc.com tried to refer his/her self rosemary.fraser@searshc.com.
+2012-11-27T20:40:25+00:00 DEBUG (7): Customer with e-mail patel.grishma@gmail.com tried to refer his/her self patel.grishma@gmail.com.
+2012-11-27T23:49:38+00:00 DEBUG (7): Customer with e-mail lupepaz3447@yahoo.com tried to refer his/her self lupepaz3447@yahoo.com.
+2012-11-27T23:51:13+00:00 DEBUG (7): The referral email in the session is invalid: pbaldueza@gmail.com
+2012-11-27T23:51:13+00:00 DEBUG (7): The referral email in the session is invalid: pbaldueza@gmail.com
+2012-11-27T23:59:36+00:00 DEBUG (7): The referral email in the session is invalid: pbaldueza@gmail.com
+2012-11-30T01:00:07+00:00 DEBUG (7): Customer with e-mail ray@cako.com tried to refer his/her self ray@cako.com.
+2012-11-30T01:01:15+00:00 DEBUG (7): Customer with e-mail ray@cako.com tried to refer his/her self ray@cako.com.
+2012-11-30T01:01:22+00:00 DEBUG (7): Customer with e-mail ray@cako.com tried to refer his/her self ray@cako.com.
+2012-11-30T01:02:19+00:00 DEBUG (7): The referral email in the session is invalid: tina@cako.com
+2012-11-30T01:10:41+00:00 DEBUG (7): The referral email in the session is invalid: heather.orsi@gmail.com
+2012-11-30T01:12:20+00:00 DEBUG (7): The referral email in the session is invalid: heather.orsi@gmail.com
+2012-11-30T01:12:24+00:00 DEBUG (7): The referral email in the session is invalid: heather.orsi@gmail.com
+2012-12-01T10:12:43+00:00 DEBUG (7): Customer with e-mail alice.h.dang@gmail.com tried to refer his/her self alice.h.dang@gmail.com.
+2012-12-08T05:45:52+00:00 DEBUG (7): The referral email in the session is invalid: saracalif1@juno.com
+2012-12-08T05:45:52+00:00 DEBUG (7): The referral email in the session is invalid: saracalif1@juno.com
+2012-12-10T23:48:42+00:00 DEBUG (7): Customer with e-mail payments@boostctr.com tried to refer his/her self payments@boostctr.com.
+2012-12-11T19:47:17+00:00 DEBUG (7): Customer with e-mail jm_dean408@yahoo.com tried to refer his/her self jm_dean408@yahoo.com.
+2012-12-12T04:59:22+00:00 DEBUG (7): The referral email in the session is invalid: cali_princess8@yahoo.com
+2012-12-14T20:27:43+00:00 DEBUG (7): Customer with e-mail razielrizzo@sbcglobal.net tried to refer his/her self razielrizzo@sbcglobal.net.
+2012-12-15T03:57:44+00:00 DEBUG (7): Customer with e-mail stole.your.cookies@gmail.com tried to refer his/her self stole.your.cookies@gmail.com.
+2012-12-17T22:18:24+00:00 DEBUG (7): Customer with e-mail kshields@mpbf.com tried to refer his/her self kshields@mpbf.com.
+2012-12-19T06:14:52+00:00 DEBUG (7): Customer with e-mail r.almatouq@hotmail.com tried to refer his/her self r.almatouq@hotmail.com.
+2012-12-19T20:01:20+00:00 DEBUG (7): Customer with e-mail geralinreyes@gmail.com tried to refer his/her self geralinreyes@gmail.com.
+2012-12-19T23:34:01+00:00 DEBUG (7): The referral email in the session is invalid: ms.suzy@gmail.com
+2012-12-19T23:34:38+00:00 DEBUG (7): The referral email in the session is invalid: ms.suzy@gmail.com
+2012-12-19T23:38:28+00:00 DEBUG (7): The referral email in the session is invalid: ms.suzy@gmail.com
+2012-12-19T23:38:31+00:00 DEBUG (7): The referral email in the session is invalid: ms.suzy@gmail.com
+2012-12-20T17:16:04+00:00 DEBUG (7): Customer with e-mail r.almatouq@hotmail.com tried to refer his/her self r.almatouq@hotmail.com.
+2012-12-20T18:06:07+00:00 DEBUG (7): Customer with e-mail geralinreyes@gmail.com tried to refer his/her self geralinreyes@gmail.com.
+2012-12-20T20:54:44+00:00 DEBUG (7): Customer with e-mail chris.mccreary@businesswire.com tried to refer his/her self chris.mccreary@businesswire.com.
+2012-12-23T04:33:52+00:00 DEBUG (7): Customer with e-mail mullinst@pipeline.com tried to refer his/her self mullinst@pipeline.com.
+2012-12-25T00:25:14+00:00 DEBUG (7): Customer with e-mail mullinst@pipeline.com tried to refer his/her self mullinst@pipeline.com.
+2012-12-25T04:17:37+00:00 DEBUG (7): Customer with e-mail mullinst@pipeline.com tried to refer his/her self mullinst@pipeline.com.
+2012-12-25T16:57:45+00:00 DEBUG (7): Customer with e-mail xyu@dons.usfca.edu tried to refer his/her self xyu@dons.usfca.edu.
+2012-12-27T00:42:10+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2012-12-30T20:08:41+00:00 DEBUG (7): Customer with e-mail ndaubeneck@gmail.com tried to refer his/her self ndaubeneck@gmail.com.
+2012-12-31T09:00:03+00:00 DEBUG (7): The referral email in the session is invalid: franlai@gmail.com
+2012-12-31T09:13:58+00:00 DEBUG (7): The referral email in the session is invalid: franlai@gmail.com
+2012-12-31T19:42:10+00:00 DEBUG (7): marketing@cako.com is already signed up to the store.
+2012-12-31T19:52:52+00:00 DEBUG (7): alan@cako.com is already signed up to the store.
+2012-12-31T21:49:48+00:00 DEBUG (7): The referral email in the session is invalid: jdng35@yahoo.com
+2012-12-31T21:49:48+00:00 DEBUG (7): The referral email in the session is invalid: jdng35@yahoo.com
+2013-01-01T00:21:42+00:00 DEBUG (7): The referral email in the session is invalid: katierachanyren@live.com
+2013-01-01T00:21:43+00:00 DEBUG (7): The referral email in the session is invalid: katierachanyren@live.com
+2013-01-02T22:08:04+00:00 DEBUG (7): Customer with e-mail khlokm@yahoo.com tried to refer his/her self khlokm@yahoo.com.
+2013-01-03T20:24:47+00:00 DEBUG (7): The referral email in the session is invalid: fb@cako.com
+2013-01-05T23:57:57+00:00 DEBUG (7): The referral email in the session is invalid: viridianapm99@ymail.com
+2013-01-05T23:57:58+00:00 DEBUG (7): Viridianapm99@ymail.com is your own e-mail address.
+2013-01-08T15:12:38+00:00 DEBUG (7): Customer with e-mail kurdo@hcdesigns.nl tried to refer his/her self kurdo@hcdesigns.nl.
+2013-01-09T01:28:43+00:00 DEBUG (7): The referral email in the session is invalid: ninja_my_assxd@yahoo.com
+2013-01-09T01:28:43+00:00 DEBUG (7): The referral email in the session is invalid: ninja_my_assxd@yahoo.com
+2013-01-09T21:39:20+00:00 DEBUG (7): The referral email in the session is invalid: doreen.munoz@wellsfargo.com
+2013-01-11T05:06:14+00:00 DEBUG (7): The referral email in the session is invalid: itz_tracy4@yahoo.com
+2013-01-11T05:06:15+00:00 DEBUG (7): The referral email in the session is invalid: itz_tracy4@yahoo.com
+2013-01-11T06:36:08+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-01-12T02:51:51+00:00 DEBUG (7): Customer with e-mail tsamsothacooley@gmail.com tried to refer his/her self tsamsothacooley@gmail.com.
+2013-01-13T20:37:48+00:00 DEBUG (7): Customer with e-mail williamsja9546@gmail.com tried to refer his/her self williamsja9546@gmail.com.
+2013-01-13T20:39:23+00:00 DEBUG (7): Customer with e-mail williamsja9546@gmail.com tried to refer his/her self williamsja9546@gmail.com.
+2013-01-14T23:15:22+00:00 DEBUG (7): The referral email in the session is invalid: linhcortez@yahoo.com
+2013-01-15T04:57:16+00:00 DEBUG (7): Customer with e-mail azn_redd@yahoo.com tried to refer his/her self azn_redd@yahoo.com.
+2013-01-15T23:24:05+00:00 DEBUG (7): Customer with e-mail rlmarti@wellsfargo.com tried to refer his/her self rlmarti@wellsfargo.com.
+2013-01-17T20:17:04+00:00 DEBUG (7): The referral email in the session is invalid: ericmsundstrom@yahoo.com
+2013-01-17T20:17:05+00:00 DEBUG (7): The referral email in the session is invalid: ericmsundstrom@yahoo.com
+2013-01-18T07:13:09+00:00 DEBUG (7): The referral email in the session is invalid: ummohyeahok@yahoo.com
+2013-01-18T07:13:10+00:00 DEBUG (7): UMMOHYEAHOK@YAHOO.COM is your own e-mail address.
+2013-01-19T02:17:55+00:00 DEBUG (7): Customer with e-mail dkoswara@gmail.com tried to refer his/her self dkoswara@gmail.com.
+2013-01-19T04:59:59+00:00 DEBUG (7): Customer with e-mail dkoswara@gmail.com tried to refer his/her self dkoswara@gmail.com.
+2013-01-21T21:09:12+00:00 DEBUG (7): The referral email in the session is invalid: kyle_mcvey_92@yahoo.com
+2013-01-21T21:11:37+00:00 DEBUG (7): The referral email in the session is invalid: gabriela1900@aol.com
+2013-01-21T23:24:01+00:00 DEBUG (7): The referral email in the session is invalid: gabriela1900@aol.com
+2013-01-21T23:24:02+00:00 DEBUG (7): Gabriela1900@aol.com is your own e-mail address.
+2013-01-22T03:33:24+00:00 DEBUG (7): The referral email in the session is invalid: ‡ö»•:^
+2013-01-22T19:02:36+00:00 DEBUG (7): The referral email in the session is invalid: stephaniebrock@comcast.net
+2013-01-22T19:02:37+00:00 DEBUG (7): The referral email in the session is invalid: stephaniebrock@comcast.net
+2013-01-22T19:58:04+00:00 DEBUG (7): Customer with e-mail asma.a.t@live.com tried to refer his/her self asma.a.t@live.com.
+2013-01-25T06:06:20+00:00 DEBUG (7): Customer with e-mail lsli21@yahoo.com tried to refer his/her self lsli21@yahoo.com.
+2013-01-25T19:55:08+00:00 DEBUG (7): The referral email in the session is invalid: tina@cako.com
+2013-01-25T20:10:36+00:00 DEBUG (7): The referral email in the session is invalid: tina@cako.com
+2013-01-25T20:12:56+00:00 DEBUG (7): The referral email in the session is invalid: tina@cako.com
+2013-01-25T20:12:56+00:00 DEBUG (7): The referral email in the session is invalid: tina@cako.com
+2013-01-25T20:36:54+00:00 DEBUG (7): jin@cako.com is already signed up to the store.
+2013-01-25T21:16:17+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T21:16:18+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T21:22:05+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T21:22:55+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T21:22:55+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T21:33:35+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T21:33:35+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T21:39:03+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T21:39:04+00:00 DEBUG (7): The referral email in the session is invalid: 6üãb
+ï#å
+2013-01-25T22:39:47+00:00 DEBUG (7): Customer with e-mail christinahlo@gmail.com tried to refer his/her self christinahlo@gmail.com.
+2013-01-27T10:03:27+00:00 DEBUG (7): aznjindude@yahoo.com is already signed up to the store.
+2013-01-28T22:52:42+00:00 DEBUG (7): shiri.takacs@gmail.com is already signed up to the store.
+2013-01-29T17:06:46+00:00 DEBUG (7): milan.groza@ciplex.com is already signed up to the store.
+2013-01-30T01:13:43+00:00 DEBUG (7): ray@cako.com is already signed up to the store.
+2013-01-30T01:34:27+00:00 DEBUG (7): The referral email in the session is invalid: cindylelam@yahoo.com
+2013-01-30T01:47:30+00:00 DEBUG (7): leslie@method.com is already signed up to the store.
+2013-01-30T18:10:19+00:00 DEBUG (7): starsuzanne@yahoo.com is already signed up to the store.
+2013-01-30T22:26:01+00:00 DEBUG (7): jason.prodoehl@arup.com is already signed up to the store.
+2013-01-30T23:20:56+00:00 DEBUG (7): polkadotrevolt@gmail.com is already signed up to the store.
+2013-01-31T09:39:16+00:00 DEBUG (7): Customer with e-mail Wonder_woo@yahoo.com tried to refer his/her self Wonder_woo@yahoo.com.
+2013-01-31T22:48:21+00:00 DEBUG (7): The referral email in the session is invalid: ñØŸ∆£˜˙À
+2013-01-31T22:48:21+00:00 DEBUG (7): The referral email in the session is invalid: ñØŸ∆£˜˙À
+2013-01-31T23:18:22+00:00 DEBUG (7): The referral email in the session is invalid: Ë⁄Ræ'
+2013-01-31T23:18:23+00:00 DEBUG (7): The referral email in the session is invalid: Ë⁄Ræ'
+2013-02-01T07:03:32+00:00 DEBUG (7): The referral email in the session is invalid: jonped87@yahoo.com
+2013-02-01T07:03:33+00:00 DEBUG (7): The referral email in the session is invalid: jonped87@yahoo.com
+2013-02-01T07:57:59+00:00 DEBUG (7): The referral email in the session is invalid: brandygreen22@gmail.com
+2013-02-01T08:09:15+00:00 DEBUG (7): Customer with e-mail brandygreen22@gmail.com tried to refer his/her self brandygreen22@gmail.com.
+2013-02-01T08:38:25+00:00 DEBUG (7): brandygreen22@gmail.com is your own e-mail address.
+2013-02-01T08:38:28+00:00 DEBUG (7): brandygreen22@gmail.com is your own e-mail address.
+2013-02-01T18:46:29+00:00 DEBUG (7): Customer with e-mail susantkoo@yahoo.com tried to refer his/her self susantkoo@yahoo.com.
+2013-02-01T20:29:44+00:00 DEBUG (7): Customer with e-mail sjsusopi@gmail.com tried to refer his/her self sjsusopi@gmail.com.
+2013-02-01T23:21:46+00:00 DEBUG (7): ninastevens@ymail.com is already signed up to the store.
+2013-02-02T01:40:22+00:00 DEBUG (7): The referral email in the session is invalid: cindylam_12@yahoo.com
+2013-02-03T17:38:03+00:00 DEBUG (7): theresa_ortiz005@yahoo.com is already signed up to the store.
+2013-02-04T06:53:50+00:00 DEBUG (7): Customer with e-mail ricardo_chavira@sbcglobal.net tried to refer his/her self ricardo_chavira@sbcglobal.net.
+2013-02-04T06:55:29+00:00 DEBUG (7): Customer with e-mail ricardo_chavira@sbcglobal.net tried to refer his/her self ricardo_chavira@sbcglobal.net.
+2013-02-05T03:38:39+00:00 DEBUG (7): The referral email in the session is invalid: Ë⁄Ræ'
+2013-02-05T03:38:39+00:00 DEBUG (7): The referral email in the session is invalid: Ë⁄Ræ'
+2013-02-05T05:34:56+00:00 DEBUG (7): Customer with e-mail scindy321@yahoo.com tried to refer his/her self scindy321@yahoo.com.
+2013-02-05T21:49:15+00:00 DEBUG (7): Customer with e-mail kimberly.christine.heller@gmail.com tried to refer his/her self kimberly.christine.heller@gmail.com.
+2013-02-06T05:56:22+00:00 DEBUG (7): Customer with e-mail meko-wu@hotmail.com tried to refer his/her self meko-wu@hotmail.com.
+2013-02-06T17:56:06+00:00 DEBUG (7): Customer with e-mail feel_mo_better@yahoo.com tried to refer his/her self feel_mo_better@yahoo.com.
+2013-02-06T20:05:06+00:00 DEBUG (7): msason@gmail.com is already signed up to the store.
+2013-02-07T19:55:14+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-02-08T03:44:39+00:00 DEBUG (7): Customer with e-mail bsoxgirl@gmail.com tried to refer his/her self bsoxgirl@gmail.com.
+2013-02-09T23:43:09+00:00 DEBUG (7): Customer with e-mail maifeng_15@hotmail.com tried to refer his/her self maifeng_15@hotmail.com.
+2013-02-10T06:38:46+00:00 DEBUG (7): Customer with e-mail thaigertarika@hotmail.com tried to refer his/her self thaigertarika@hotmail.com.
+2013-02-12T17:50:41+00:00 DEBUG (7): Customer with e-mail tsobouti@gmail.com tried to refer his/her self tsobouti@gmail.com.
+2013-02-12T21:46:44+00:00 DEBUG (7): Customer with e-mail chela_mendoza@hotmail.com tried to refer his/her self chela_mendoza@hotmail.com.
+2013-02-12T23:08:14+00:00 DEBUG (7): Customer with e-mail daisy.kong@gmail.com tried to refer his/her self daisy.kong@gmail.com.
+2013-02-13T01:55:42+00:00 DEBUG (7): The referral email in the session is invalid: wendywong213@yahoo.com
+2013-02-13T01:57:12+00:00 DEBUG (7): The referral email in the session is invalid: wendywong213@yahoo.com
+2013-02-13T01:58:25+00:00 DEBUG (7): The referral email in the session is invalid: wendywong213@yahoo.com
+2013-02-13T01:58:28+00:00 DEBUG (7): The referral email in the session is invalid: wendywong213@yahoo.com
+2013-02-13T17:57:57+00:00 DEBUG (7): The referral email in the session is invalid: kmajit@swinerton.com
+2013-02-14T05:13:19+00:00 DEBUG (7): Customer with e-mail nguyenjimmy19@gmail.com tried to refer his/her self nguyenjimmy19@gmail.com.
+2013-02-14T09:06:04+00:00 DEBUG (7): Customer with e-mail cli415@yahoo.com tried to refer his/her self cli415@yahoo.com.
+2013-02-15T04:27:02+00:00 DEBUG (7): martinezchelsie5@gmail.com is already signed up to the store.
+2013-02-17T06:08:31+00:00 DEBUG (7): The referral email in the session is invalid: angelkirstenkeely@yahoo.com
+2013-02-17T06:08:32+00:00 DEBUG (7): The referral email in the session is invalid: angelkirstenkeely@yahoo.com
+2013-02-17T16:30:48+00:00 DEBUG (7): The referral email in the session is invalid: coollish22@hotmail.com
+2013-02-17T16:30:49+00:00 DEBUG (7): The referral email in the session is invalid: coollish22@hotmail.com
+2013-02-18T05:57:14+00:00 DEBUG (7): The referral email in the session is invalid: cindylelam@yahoo.com
+2013-02-18T05:57:15+00:00 DEBUG (7): The referral email in the session is invalid: cindylelam@yahoo.com
+2013-02-18T06:20:37+00:00 DEBUG (7): The referral email in the session is invalid: cindylelam@yahoo.com
+2013-02-19T05:13:29+00:00 DEBUG (7): The referral email in the session is invalid: nancifreund@aol.com
+2013-02-19T05:13:30+00:00 DEBUG (7): NanciFreund@Aol.Com is your own e-mail address.
+2013-02-19T20:50:51+00:00 DEBUG (7): Customer with e-mail ilona@swissnexsf.org tried to refer his/her self ilona@swissnexsf.org.
+2013-02-20T03:33:22+00:00 DEBUG (7): Customer with e-mail aznliulx3@yahoo.com tried to refer his/her self aznliulx3@yahoo.com.
+2013-02-20T05:05:58+00:00 DEBUG (7): The referral email in the session is invalid: ttran1912@yahoo.com
+2013-02-20T05:18:55+00:00 DEBUG (7): The referral email in the session is invalid: thaotran95148@gmail.com
+2013-02-24T02:17:41+00:00 DEBUG (7): Customer with e-mail vicky.wang19@foxmail.com tried to refer his/her self vicky.wang19@foxmail.com.
+2013-02-25T05:44:22+00:00 DEBUG (7): The referral email in the session is invalid: kcindylove@hanmail.net
+2013-02-27T01:12:39+00:00 DEBUG (7): acacia.devinck@ubisoft.com is already signed up to the store.
+2013-02-27T22:27:41+00:00 DEBUG (7): Customer with e-mail shayina08@gmail.com tried to refer his/her self shayina08@gmail.com.
+2013-02-28T00:35:31+00:00 DEBUG (7): The referral email in the session is invalid: ar@proxprint.com
+2013-02-28T00:35:31+00:00 DEBUG (7): The referral email in the session is invalid: ar@proxprint.com
+2013-02-28T21:27:24+00:00 DEBUG (7): The referral email in the session is invalid: Ê2hœª<0
+2013-02-28T21:50:21+00:00 DEBUG (7): The referral email in the session is invalid: jennygalon@yahoo.com
+2013-02-28T21:50:21+00:00 DEBUG (7): The referral email in the session is invalid: jennygalon@yahoo.com
+2013-03-02T05:09:11+00:00 DEBUG (7): Customer with e-mail 14egu@shcp.edu tried to refer his/her self 14egu@shcp.edu.
+2013-03-03T10:40:14+00:00 DEBUG (7): The referral email in the session is invalid: leetaylor33@gmail.com
+2013-03-03T10:40:15+00:00 DEBUG (7): The referral email in the session is invalid: leetaylor33@gmail.com
+2013-03-04T05:01:41+00:00 DEBUG (7): shim.ashley@yahoo.com is already signed up to the store.
+2013-03-04T05:02:42+00:00 DEBUG (7): shim.ashley@yahoo.com is already signed up to the store.
+2013-03-04T19:35:18+00:00 DEBUG (7): The referral email in the session is invalid: sweetcamille3@yahoo.com
+2013-03-04T19:35:19+00:00 DEBUG (7): The referral email in the session is invalid: sweetcamille3@yahoo.com
+2013-03-04T20:35:11+00:00 DEBUG (7): Customer with e-mail ryalsker@aol.com tried to refer his/her self ryalsker@aol.com.
+2013-03-05T19:10:29+00:00 DEBUG (7): The referral email in the session is invalid: jerry@mylikes.com
+2013-03-05T20:01:19+00:00 DEBUG (7): The referral email in the session is invalid: jerry@mylikes.com
+2013-03-05T20:03:39+00:00 DEBUG (7): The referral email in the session is invalid: jerry@mylikes.com
+2013-03-05T20:03:42+00:00 DEBUG (7): The referral email in the session is invalid: jerry@mylikes.com
+2013-03-06T13:45:35+00:00 DEBUG (7): Customer with e-mail ashleylindsey@utexas.edu tried to refer his/her self ashleylindsey@utexas.edu.
+2013-03-06T19:51:10+00:00 DEBUG (7): The referral email in the session is invalid: aorzell@jefferies.com
+2013-03-06T19:51:11+00:00 DEBUG (7): The referral email in the session is invalid: aorzell@jefferies.com
+2013-03-06T21:45:43+00:00 DEBUG (7): Customer with e-mail priscila.levinson@gmail.com tried to refer his/her self priscila.levinson@gmail.com.
+2013-03-06T22:48:52+00:00 DEBUG (7): dballard@perkinscoie.com is already signed up to the store.
+2013-03-07T05:21:01+00:00 DEBUG (7): lily@fetterer.com is already signed up to the store.
+2013-03-07T23:08:47+00:00 DEBUG (7): The referral email in the session is invalid: shana.chin@mckesson.com
+2013-03-08T20:53:18+00:00 DEBUG (7): The referral email in the session is invalid: daniel@cakobakery.com
+2013-03-09T18:52:45+00:00 DEBUG (7): The referral email in the session is invalid: tosailthesea@gmail.com
+2013-03-09T18:52:47+00:00 DEBUG (7): The referral email in the session is invalid: tosailthesea@gmail.com
+2013-03-10T19:02:59+00:00 DEBUG (7): Customer with e-mail lammielammmm@gmail.com tried to refer his/her self lammielammmm@gmail.com.
+2013-03-11T21:16:28+00:00 DEBUG (7): The referral email in the session is invalid: duirace@yahoo.com
+2013-03-11T21:16:29+00:00 DEBUG (7): The referral email in the session is invalid: duirace@yahoo.com
+2013-03-12T22:14:53+00:00 DEBUG (7): Customer with e-mail qvphan77@yahoo.com tried to refer his/her self qvphan77@yahoo.com.
+2013-03-12T22:16:42+00:00 DEBUG (7): Customer with e-mail qvphan77@yahoo.com tried to refer his/her self qvphan77@yahoo.com.
+2013-03-13T01:23:06+00:00 DEBUG (7): Customer with e-mail aadlilly@gmail.com tried to refer his/her self aadlilly@gmail.com.
+2013-03-13T22:09:46+00:00 DEBUG (7): The referral email in the session is invalid: malibuguitarist@yahoo.com
+2013-03-14T07:34:26+00:00 DEBUG (7): Customer with e-mail livelovelilyy@gmail.com tried to refer his/her self livelovelilyy@gmail.com.
+2013-03-14T17:03:34+00:00 DEBUG (7): serventi77@yahoo.com is already signed up to the store.
+2013-03-15T19:41:02+00:00 DEBUG (7): Customer with e-mail linhnewguyen@yahoo.com tried to refer his/her self linhnewguyen@yahoo.com.
+2013-03-15T19:54:18+00:00 DEBUG (7): ekache@gmail.com is already signed up to the store.
+2013-03-16T12:15:56+00:00 DEBUG (7): naroon@aol.com is already signed up to the store.
+2013-03-16T23:24:55+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-03-17T17:56:58+00:00 DEBUG (7): Customer with e-mail michellezxlbb@gmail.com tried to refer his/her self michellezxlbb@gmail.com.
+2013-03-18T05:41:56+00:00 DEBUG (7): sylvialew@hotmail.com is already signed up to the store.
+2013-03-18T05:42:22+00:00 DEBUG (7): sylvialew@hotmail.com is already signed up to the store.
+2013-03-18T05:46:03+00:00 DEBUG (7): sylvialew@hotmail.com is already signed up to the store.
+2013-03-18T06:00:20+00:00 DEBUG (7): Customer with e-mail kari2nguyen@yahoo.com tried to refer his/her self kari2nguyen@yahoo.com.
+2013-03-18T20:16:50+00:00 DEBUG (7): barrygzito@gmail.com is already signed up to the store.
+2013-03-18T22:54:38+00:00 DEBUG (7): The referral email in the session is invalid: monicama13@yahho.com
+2013-03-22T08:20:52+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-03-23T22:18:07+00:00 DEBUG (7): The referral email in the session is invalid: awesomeht@yahoo.com
+2013-03-25T21:48:45+00:00 DEBUG (7): Customer with e-mail sophiahirano17@gmail.com tried to refer his/her self sophiahirano17@gmail.com.
+2013-03-27T14:40:49+00:00 DEBUG (7): The referral email in the session is invalid: ⁄äÎê'Xµí
+2013-03-27T14:46:32+00:00 DEBUG (7): The referral email in the session is invalid: π2µ>»∫
+2013-03-27T14:47:12+00:00 DEBUG (7): The referral email in the session is invalid: π2µ>»∫
+2013-03-27T14:50:31+00:00 DEBUG (7): The referral email in the session is invalid: ⁄äÎê'Xµí
+2013-03-27T14:52:16+00:00 DEBUG (7): The referral email in the session is invalid: ⁄äÎê'Xµí
+2013-03-27T14:52:19+00:00 DEBUG (7): The referral email in the session is invalid: ⁄äÎê'Xµí
+2013-03-28T03:47:27+00:00 DEBUG (7): The referral email in the session is invalid: s≈¯0“I
+2013-03-28T03:47:30+00:00 DEBUG (7): The referral email in the session is invalid: s≈¯0“I
+2013-03-28T18:24:29+00:00 DEBUG (7): Customer with e-mail taylor_tomlinson-sfo@mckinsey.com tried to refer his/her self taylor_tomlinson-sfo@mckinsey.com.
+2013-03-28T21:38:38+00:00 DEBUG (7): The referral email in the session is invalid: fjamsden@yahoo.com
+2013-03-28T21:38:42+00:00 DEBUG (7): The referral email in the session is invalid: fjamsden@yahoo.com
+2013-03-28T22:16:50+00:00 DEBUG (7): Customer with e-mail kalambra@randalllamb.com tried to refer his/her self kalambra@randalllamb.com.
+2013-03-28T22:50:17+00:00 DEBUG (7): Customer with e-mail kalambra@randalllamb.com tried to refer his/her self kalambra@randalllamb.com.
+2013-04-01T01:40:04+00:00 DEBUG (7): bellmerdoll@gmail.com is already signed up to the store.
+2013-04-02T03:22:49+00:00 DEBUG (7): The referral email in the session is invalid: 6X1∞ŸWµ
+2013-04-03T02:23:08+00:00 DEBUG (7): Customer with e-mail snead027@gmail.com tried to refer his/her self snead027@gmail.com.
+2013-04-03T05:25:28+00:00 DEBUG (7): dchoye1@gmail.com is already signed up to the store.
+2013-04-03T08:11:26+00:00 DEBUG (7): Customer with e-mail jowapa@live.com tried to refer his/her self jowapa@live.com.
+2013-04-03T20:34:03+00:00 DEBUG (7): serventi77@yahoo.com is already signed up to the store.
+2013-04-03T20:56:10+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-03T21:44:57+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:45:31+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:45:55+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:46:15+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:46:29+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:46:41+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:46:56+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:47:13+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:47:29+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:47:42+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:47:54+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:49:08+00:00 DEBUG (7): Customer with e-mail bbashful@lautze.com tried to refer his/her self bbashful@lautze.com.
+2013-04-03T21:59:26+00:00 DEBUG (7): mscolon38@yahoo.com is already signed up to the store.
+2013-04-03T21:59:43+00:00 DEBUG (7): mscolon38@yahoo.com is already signed up to the store.
+2013-04-03T22:00:03+00:00 DEBUG (7): slynnwang@gmail.com is already signed up to the store.
+2013-04-03T23:56:48+00:00 DEBUG (7): kathxleen@gmail.com is already signed up to the store.
+2013-04-04T01:03:12+00:00 DEBUG (7): mariawu2010@gmail.com is already signed up to the store.
+2013-04-04T01:45:20+00:00 DEBUG (7): rlclone@yahoo.com is already signed up to the store.
+2013-04-04T04:37:46+00:00 DEBUG (7): catwoman369@hotmail.com is already signed up to the store.
+2013-04-04T05:44:00+00:00 DEBUG (7): spkempis@gmail.com is already signed up to the store.
+2013-04-04T08:05:05+00:00 DEBUG (7): margmoore1234@yahoo.com is already signed up to the store.
+2013-04-04T16:34:16+00:00 DEBUG (7): kim_lin09@yahoo.com is already signed up to the store.
+2013-04-04T20:12:39+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-04T21:30:25+00:00 DEBUG (7): h.teixeira@sbcglobal.net is already signed up to the store.
+2013-04-04T23:27:01+00:00 DEBUG (7): amyyu1023@gmail.com is already signed up to the store.
+2013-04-05T02:53:18+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-05T02:53:28+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-05T04:39:47+00:00 DEBUG (7): dionneshort@gmail.com is already signed up to the store.
+2013-04-05T22:29:12+00:00 DEBUG (7): The referral email in the session is invalid: Ω√íª¨}T«
+2013-04-06T05:08:13+00:00 DEBUG (7): The referral email in the session is invalid: hurtado_cheryl@yahoo.com
+2013-04-06T05:08:21+00:00 DEBUG (7): Hurtado_cheryl@yahoo.com is your own e-mail address.
+2013-04-06T17:26:56+00:00 DEBUG (7): Customer with e-mail mmcv2000@yahoo.com tried to refer his/her self mmcv2000@yahoo.com.
+2013-04-06T17:49:36+00:00 DEBUG (7): Customer with e-mail mmcv2000@yahoo.com tried to refer his/her self mmcv2000@yahoo.com.
+2013-04-07T01:58:45+00:00 DEBUG (7): Customer with e-mail kimberlyho42@gmail.com tried to refer his/her self kimberlyho42@gmail.com.
+2013-04-08T21:36:38+00:00 DEBUG (7): Customer with e-mail crissyhen@myway.com tried to refer his/her self crissyhen@myway.com.
+2013-04-09T03:02:14+00:00 DEBUG (7): Customer with e-mail byronturner@yahoo.com tried to refer his/her self byronturner@yahoo.com.
+2013-04-09T03:04:06+00:00 DEBUG (7): Customer with e-mail byronturner@yahoo.com tried to refer his/her self byronturner@yahoo.com.
+2013-04-09T03:09:17+00:00 DEBUG (7): Customer with e-mail byronturner@yahoo.com tried to refer his/her self byronturner@yahoo.com.
+2013-04-09T18:53:29+00:00 DEBUG (7): bandhuj@outlook.com is already signed up to the store.
+2013-04-10T03:22:46+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-10T17:48:46+00:00 DEBUG (7): Customer with e-mail edwardl@westcoastindustries.com tried to refer his/her self edwardl@westcoastindustries.com.
+2013-04-11T07:59:58+00:00 DEBUG (7): Customer with e-mail babygirl21481@hotmail.com tried to refer his/her self babygirl21481@hotmail.com.
+2013-04-11T08:01:16+00:00 DEBUG (7): Customer with e-mail babygirl21481@hotmail.com tried to refer his/her self babygirl21481@hotmail.com.
+2013-04-11T19:39:13+00:00 DEBUG (7): The referral email in the session is invalid: siilovesu@gmail.com
+2013-04-11T19:49:41+00:00 DEBUG (7): The referral email in the session is invalid: siilovesu@gmail.com
+2013-04-11T19:53:14+00:00 DEBUG (7): The referral email in the session is invalid: siilovesu@gmail.com
+2013-04-11T21:25:29+00:00 DEBUG (7): Customer with e-mail garciasr7@yahoo.com tried to refer his/her self garciasr7@yahoo.com.
+2013-04-11T21:49:31+00:00 DEBUG (7): noelle@horsleybridge.com is already signed up to the store.
+2013-04-11T23:15:37+00:00 DEBUG (7): The referral email in the session is invalid: ¢X)ﬂ41…
+2013-04-12T07:04:09+00:00 DEBUG (7): Customer with e-mail thuytienvo1997@yahoo.com tried to refer his/her self thuytienvo1997@yahoo.com.
+2013-04-13T01:19:38+00:00 DEBUG (7): Customer with e-mail samantha.phaing04@gmail.com tried to refer his/her self samantha.phaing04@gmail.com.
+2013-04-17T19:23:00+00:00 DEBUG (7): The referral email in the session is invalid: ”Ï–ù…˝l[
+2013-04-17T19:24:07+00:00 DEBUG (7): The referral email in the session is invalid: ”Ï–ù…˝l[
+2013-04-18T06:11:25+00:00 DEBUG (7): meiantonio347@yahoo.com is already signed up to the store.
+2013-04-18T18:44:41+00:00 DEBUG (7): The referral email in the session is invalid: ⁄äÎê'Xµí
+2013-04-18T23:18:54+00:00 DEBUG (7): jl1359@gmail.com is already signed up to the store.
+2013-04-19T02:18:26+00:00 DEBUG (7): Customer with e-mail shireescarlet@gmail.com tried to refer his/her self shireescarlet@gmail.com.
+2013-04-20T21:47:30+00:00 DEBUG (7): Customer with e-mail irenets@gmail.com tried to refer his/her self irenets@gmail.com.
+2013-04-22T02:39:19+00:00 DEBUG (7): The referral email in the session is invalid: ÁJYd‹Ñ«¨
+2013-04-22T02:39:21+00:00 DEBUG (7): The referral email in the session is invalid: ÁJYd‹Ñ«¨
+2013-04-23T21:12:57+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-04-23T21:21:08+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-04-23T21:39:45+00:00 DEBUG (7): The referral email in the session is invalid: msandlin@westcore.net
+2013-04-23T21:39:47+00:00 DEBUG (7): The referral email in the session is invalid: msandlin@westcore.net
+2013-04-24T21:32:29+00:00 DEBUG (7): Customer with e-mail jjanec@gmail.com tried to refer his/her self jjanec@gmail.com.
+2013-04-25T12:20:12+00:00 DEBUG (7): Customer with e-mail angela_canziani@comcast.net tried to refer his/her self angela_canziani@comcast.net.
+2013-04-25T19:40:28+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-25T19:52:25+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-26T00:44:30+00:00 DEBUG (7): dino_din8@hotmail.com is already signed up to the store.
+2013-04-26T22:33:33+00:00 DEBUG (7): annabrock56@hotmail.com is already signed up to the store.
+2013-04-27T02:28:48+00:00 DEBUG (7): The referral email in the session is invalid: aclawtonlions@aol.com
+2013-04-27T02:28:53+00:00 DEBUG (7): The referral email in the session is invalid: aclawtonlions@aol.com
+2013-04-27T05:41:12+00:00 DEBUG (7): annniely@yahoo.com is already signed up to the store.
+2013-04-27T19:48:19+00:00 DEBUG (7): weylandlau@gmail.com is already signed up to the store.
+2013-04-27T19:48:43+00:00 DEBUG (7): weylandlau@gmail.com is already signed up to the store.
+2013-04-28T00:45:26+00:00 DEBUG (7): Customer with e-mail christine.lee@csueastbay.edu tried to refer his/her self christine.lee@csueastbay.edu.
+2013-04-28T18:05:49+00:00 DEBUG (7): The referral email in the session is invalid: toothdrwendy@gmail.com
+2013-04-28T18:05:52+00:00 DEBUG (7): The referral email in the session is invalid: toothdrwendy@gmail.com
+2013-04-29T05:58:21+00:00 DEBUG (7): Customer with e-mail lauralous@sbcglobal.net tried to refer his/her self lauralous@sbcglobal.net.
+2013-04-30T00:13:13+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-30T01:12:29+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-04-30T18:21:08+00:00 DEBUG (7): Customer with e-mail emily.flaxman@gmail.com tried to refer his/her self emily.flaxman@gmail.com.
+2013-04-30T22:06:05+00:00 DEBUG (7): lindacchou@gmail.com is already signed up to the store.
+2013-05-01T06:00:06+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T06:08:30+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T06:08:34+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T06:10:36+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T06:12:03+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T06:15:55+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T06:21:51+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T06:29:58+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T06:30:01+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-01T17:11:26+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-03T02:17:03+00:00 DEBUG (7): juliep240@gmail.com is already signed up to the store.
+2013-05-03T05:10:58+00:00 DEBUG (7): jacqescobar23@yahoo.com is already signed up to the store.
+2013-05-04T17:00:51+00:00 DEBUG (7): Customer with e-mail tian89727@yahoo.com tried to refer his/her self tian89727@yahoo.com.
+2013-05-05T21:31:37+00:00 DEBUG (7): maygin@gmail.com is already signed up to the store.
+2013-05-06T21:42:10+00:00 DEBUG (7): mcheng13@me.com is already signed up to the store.
+2013-05-06T22:23:25+00:00 DEBUG (7): sb0056@yahoo.com is already signed up to the store.
+2013-05-07T02:41:48+00:00 DEBUG (7): bubba_lou33@hotmail.com is already signed up to the store.
+2013-05-07T14:40:05+00:00 DEBUG (7): The referral email in the session is invalid: raiders4040p8715@gmail.com
+2013-05-07T14:40:08+00:00 DEBUG (7): The referral email in the session is invalid: raiders4040p8715@gmail.com
+2013-05-09T20:58:33+00:00 DEBUG (7): The referral email in the session is invalid: ªΩÈ8ª∏
+2013-05-09T20:58:34+00:00 DEBUG (7): The referral email in the session is invalid: ªΩÈ8ª∏
+2013-05-10T17:51:32+00:00 DEBUG (7): The referral email in the session is invalid: alejandramireyasantillan@yahoo.com
+2013-05-10T18:47:24+00:00 DEBUG (7): Customer with e-mail pinayrhapsody@yahoo.com tried to refer his/her self pinayrhapsody@yahoo.com.
+2013-05-10T20:15:50+00:00 DEBUG (7): Customer with e-mail auyehara4040@gmail.com tried to refer his/her self auyehara4040@gmail.com.
+2013-05-10T23:37:21+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-10T23:37:26+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-10T23:39:47+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-11T04:52:22+00:00 DEBUG (7): Customer with e-mail lindyluoma@gmail.com tried to refer his/her self lindyluoma@gmail.com.
+2013-05-11T14:36:44+00:00 DEBUG (7): The referral email in the session is invalid: squeezerje@yahoo.com
+2013-05-11T14:37:20+00:00 DEBUG (7): The referral email in the session is invalid: squeezerje@yahoo.com
+2013-05-11T14:37:22+00:00 DEBUG (7): The referral email in the session is invalid: squeezerje@yahoo.com
+2013-05-11T23:06:01+00:00 DEBUG (7): Customer with e-mail acazahgoodman@hotmail.com tried to refer his/her self acazahgoodman@hotmail.com.
+2013-05-13T00:37:46+00:00 DEBUG (7): The referral email in the session is invalid: ÃfÁ±?ÿI1
+2013-05-13T10:42:23+00:00 DEBUG (7): jphamwang@gmail.com is already signed up to the store.
+2013-05-13T19:31:03+00:00 DEBUG (7): Customer with e-mail denise2002girls@yahoo.com tried to refer his/her self denise2002girls@yahoo.com.
+2013-05-13T22:31:38+00:00 DEBUG (7): Customer with e-mail casey.gorton@yahoo.com tried to refer his/her self casey.gorton@yahoo.com.
+2013-05-14T00:22:30+00:00 DEBUG (7): mariamacamara@me.com is already signed up to the store.
+2013-05-14T07:54:04+00:00 DEBUG (7): Customer with e-mail miralynesteban@comcast.net tried to refer his/her self miralynesteban@comcast.net.
+2013-05-14T13:23:27+00:00 DEBUG (7): The referral email in the session is invalid: ˝ªÛªÀ
+2013-05-17T21:18:40+00:00 DEBUG (7): Customer with e-mail ghada.i.asaad@hotmail.com tried to refer his/her self ghada.i.asaad@hotmail.com.
+2013-05-20T15:11:27+00:00 DEBUG (7): The referral email in the session is invalid: ⁄äÎê'Xµí
+2013-05-21T05:22:15+00:00 DEBUG (7): The referral email in the session is invalid: afandijamilla@gmail.com
+2013-05-21T05:22:18+00:00 DEBUG (7): The referral email in the session is invalid: afandijamilla@gmail.com
+2013-05-21T17:35:29+00:00 DEBUG (7): Customer with e-mail mdewalt137@hotmail.com tried to refer his/her self mdewalt137@hotmail.com.
+2013-05-21T17:38:17+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-05-21T17:55:26+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-05-21T17:57:16+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-05-21T17:59:57+00:00 DEBUG (7): Customer with e-mail karen@passportcapital.com tried to refer his/her self karen@passportcapital.com.
+2013-05-23T19:33:01+00:00 DEBUG (7): The referral email in the session is invalid: lmahoneymaver@consultcelerity.com
+2013-05-25T18:02:49+00:00 DEBUG (7): Customer with e-mail rissa.hk@gmail.com tried to refer his/her self rissa.hk@gmail.com.
+2013-05-28T03:26:51+00:00 DEBUG (7): The referral email in the session is invalid: ´L4Ú⁄ø¡-
+2013-05-28T04:29:53+00:00 DEBUG (7): The referral email in the session is invalid: ™A∆«S≥
+2013-05-28T04:30:00+00:00 DEBUG (7): The referral email in the session is invalid: ™A∆«S≥
+2013-05-29T14:35:39+00:00 DEBUG (7): Customer with e-mail cherchezame@gmail.com tried to refer his/her self cherchezame@gmail.com.
+2013-05-29T22:00:29+00:00 DEBUG (7): The referral email in the session is invalid: cinetorres79@gmail.com
+2013-05-29T22:00:32+00:00 DEBUG (7): The referral email in the session is invalid: cinetorres79@gmail.com
+2013-05-31T21:05:00+00:00 DEBUG (7): The referral email in the session is invalid: úWärÀ†&_
+2013-06-01T02:50:16+00:00 DEBUG (7): The referral email in the session is invalid: philipcbautista@gmail.com
+2013-06-01T09:32:18+00:00 DEBUG (7): Customer with e-mail temmespe@hotmail.com tried to refer his/her self temmespe@hotmail.com.
+2013-06-01T17:30:27+00:00 DEBUG (7): The referral email in the session is invalid: ststudentcat@yahoo.com
+2013-06-01T17:30:30+00:00 DEBUG (7): The referral email in the session is invalid: ststudentcat@yahoo.com
+2013-06-01T20:59:02+00:00 DEBUG (7): Customer with e-mail anhthi.ng@gmail.com tried to refer his/her self anhthi.ng@gmail.com.
+2013-06-04T19:08:11+00:00 DEBUG (7): The referral email in the session is invalid: boy.drew@ymail.com
+2013-06-04T19:08:13+00:00 DEBUG (7): The referral email in the session is invalid: boy.drew@ymail.com
+2013-06-05T23:48:59+00:00 DEBUG (7): Customer with e-mail annkilleen@comcast.net tried to refer his/her self annkilleen@comcast.net.
+2013-06-07T23:56:40+00:00 DEBUG (7): Customer with e-mail endrewchris@yahoo.com tried to refer his/her self endrewchris@yahoo.com.
+2013-06-07T23:57:01+00:00 DEBUG (7): Customer with e-mail endrewchris@yahoo.com tried to refer his/her self endrewchris@yahoo.com.
+2013-06-11T21:50:04+00:00 DEBUG (7): The referral email in the session is invalid: michael.vanecek@xero.com
+2013-06-11T21:50:07+00:00 DEBUG (7): The referral email in the session is invalid: michael.vanecek@xero.com
+2013-06-12T07:53:46+00:00 DEBUG (7): chau_tran93@yahoo.com is already signed up to the store.
+2013-06-12T07:55:39+00:00 DEBUG (7): chau_tran93@yahoo.com is already signed up to the store.
+2013-06-12T07:56:06+00:00 DEBUG (7): chau_tran93@yahoo.com is already signed up to the store.
+2013-06-13T20:26:47+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-13T23:38:36+00:00 DEBUG (7): davidtapia04@yahoo.com is already signed up to the store.
+2013-06-14T16:16:08+00:00 DEBUG (7): Customer with e-mail icethachilla@yahoo.com tried to refer his/her self icethachilla@yahoo.com.
+2013-06-14T16:18:37+00:00 DEBUG (7): Customer with e-mail icethachilla@yahoo.com tried to refer his/her self icethachilla@yahoo.com.
+2013-06-14T16:28:57+00:00 DEBUG (7): Customer with e-mail icethachilla@yahoo.com tried to refer his/her self icethachilla@yahoo.com.
+2013-06-16T00:27:13+00:00 DEBUG (7): The referral email in the session is invalid: lilmissangerissues@yahoo.com
+2013-06-16T00:27:15+00:00 DEBUG (7): The referral email in the session is invalid: lilmissangerissues@yahoo.com
+2013-06-16T18:18:09+00:00 DEBUG (7): The referral email in the session is invalid: jessinat@msn.com
+2013-06-18T22:10:05+00:00 DEBUG (7): The referral email in the session is invalid: lvlvlvlvv@gmail.com
+2013-06-18T22:10:09+00:00 DEBUG (7): The referral email in the session is invalid: lvlvlvlvv@gmail.com
+2013-06-19T19:27:57+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-19T19:35:38+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-19T19:41:29+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-19T19:44:36+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-19T19:48:08+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-19T19:53:32+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-20T00:47:26+00:00 DEBUG (7): Customer with e-mail justineliang88@gmail.com tried to refer his/her self justineliang88@gmail.com.
+2013-06-20T00:47:27+00:00 DEBUG (7): Customer with e-mail justineliang88@gmail.com tried to refer his/her self justineliang88@gmail.com.
+2013-06-20T16:54:23+00:00 DEBUG (7): Customer with e-mail ngoc_natalie@yahoo.com tried to refer his/her self ngoc_natalie@yahoo.com.
+2013-06-24T04:29:24+00:00 DEBUG (7): The referral email in the session is invalid: legitnesspwns@yahoo.com
+2013-06-24T04:29:27+00:00 DEBUG (7): The referral email in the session is invalid: legitnesspwns@yahoo.com
+2013-06-24T16:35:16+00:00 DEBUG (7): The referral email in the session is invalid: copper599@gmail.com
+2013-06-24T16:35:18+00:00 DEBUG (7): The referral email in the session is invalid: copper599@gmail.com
+2013-06-24T19:05:46+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-24T19:10:08+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-06-25T02:28:24+00:00 DEBUG (7): The referral email in the session is invalid: D´O’‹Ô
+2013-06-25T02:28:26+00:00 DEBUG (7): The referral email in the session is invalid: D´O’‹Ô
+2013-06-27T23:32:27+00:00 DEBUG (7): The referral email in the session is invalid: han.watts@gmail.com
+2013-06-27T23:32:28+00:00 DEBUG (7): Han.watts@gmail.com is your own e-mail address.
+2013-06-28T00:00:08+00:00 DEBUG (7): Customer with e-mail melissa.aiu@naturalmotion.com tried to refer his/her self melissa.aiu@naturalmotion.com.
+2013-06-29T01:39:11+00:00 DEBUG (7): The referral email in the session is invalid: pandapoopspigs@gmail.com
+2013-06-29T01:39:48+00:00 DEBUG (7): The referral email in the session is invalid: pandapoopspigs@gmail.com
+2013-06-29T17:59:22+00:00 DEBUG (7): Customer with e-mail claudiosf@comcast.net tried to refer his/her self claudiosf@comcast.net.
+2013-07-08T21:00:59+00:00 DEBUG (7): The referral email in the session is invalid: info@a1protectiveservices.com
+2013-07-08T21:03:37+00:00 DEBUG (7): Info@a1protectiveservices.com is your own e-mail address.
+2013-07-08T21:03:40+00:00 DEBUG (7): Info@a1protectiveservices.com is your own e-mail address.
+2013-07-09T13:25:35+00:00 DEBUG (7): Customer with e-mail bsk405@gmail.com tried to refer his/her self bsk405@gmail.com.
+2013-07-09T20:21:45+00:00 DEBUG (7): The referral email in the session is invalid: tammyle253@yahoo.com
+2013-07-09T20:21:48+00:00 DEBUG (7): The referral email in the session is invalid: tammyle253@yahoo.com
+2013-07-11T19:58:14+00:00 DEBUG (7): Customer with e-mail ledbetterj@hemming.com tried to refer his/her self ledbetterj@hemming.com.
+2013-07-13T23:18:26+00:00 DEBUG (7): Customer with e-mail icethachilla@yahoo.com tried to refer his/her self icethachilla@yahoo.com.
+2013-07-14T15:41:57+00:00 DEBUG (7): The referral email in the session is invalid: letsgrow@yahoo.com
+2013-07-15T18:24:59+00:00 DEBUG (7): The referral email in the session is invalid: tchien@gmail.com
+2013-07-15T18:31:33+00:00 DEBUG (7): The referral email in the session is invalid: tchien@gmail.com
+2013-07-15T18:34:02+00:00 DEBUG (7): The referral email in the session is invalid: tchien@gmail.com
+2013-07-15T18:48:49+00:00 DEBUG (7): The referral email in the session is invalid: tchien@gmail.com
+2013-07-15T18:48:52+00:00 DEBUG (7): The referral email in the session is invalid: tchien@gmail.com
+2013-07-16T03:20:43+00:00 DEBUG (7): The referral email in the session is invalid: maddison.baldwin16@gmail.com
+2013-07-16T03:23:56+00:00 DEBUG (7): The referral email in the session is invalid: maddison.baldwin16@gmail.com
+2013-07-17T02:52:18+00:00 DEBUG (7): Customer with e-mail p.nimms@gmail.com tried to refer his/her self p.nimms@gmail.com.
+2013-07-17T21:20:17+00:00 DEBUG (7): Customer with e-mail rajith02@yahoo.com tried to refer his/her self rajith02@yahoo.com.
+2013-07-20T05:46:34+00:00 DEBUG (7): Customer with e-mail ljp_pinkdiamond@yahoo.com tried to refer his/her self ljp_pinkdiamond@yahoo.com.
+2013-07-22T16:58:51+00:00 DEBUG (7): Customer with e-mail jen1188@mail.com tried to refer his/her self jen1188@mail.com.
+2013-07-22T17:00:04+00:00 DEBUG (7): Customer with e-mail jen1188@mail.com tried to refer his/her self jen1188@mail.com.
+2013-07-22T18:01:56+00:00 DEBUG (7): Customer with e-mail rubycheema1@yahoo.com tried to refer his/her self rubycheema1@yahoo.com.
+2013-07-22T18:40:53+00:00 DEBUG (7): drecan28@hotmail.com is already signed up to the store.
+2013-07-23T01:58:04+00:00 DEBUG (7): Customer with e-mail jojobear955@gmail.com tried to refer his/her self jojobear955@gmail.com.
+2013-07-23T07:22:21+00:00 DEBUG (7): The referral email in the session is invalid: mengdili@hotmail.com
+2013-07-23T07:22:24+00:00 DEBUG (7): mengdili@Hotmail.cOM is your own e-mail address.
+2013-07-23T19:54:36+00:00 DEBUG (7): Customer with e-mail theslimjimm54@gmail.com tried to refer his/her self theslimjimm54@gmail.com.
+2013-07-24T07:57:05+00:00 DEBUG (7): Customer with e-mail kittielovespancho8@gmail.com tried to refer his/her self kittielovespancho8@gmail.com.
+2013-07-24T17:28:13+00:00 DEBUG (7): AbrahamAHarriss@dayrep.com is already signed up to the store.
+2013-07-24T17:38:42+00:00 DEBUG (7): JamesJNickel@armyspy.com is already signed up to the store.
+2013-07-24T17:47:21+00:00 DEBUG (7): MarianHSluss@rhyta.com is already signed up to the store.
+2013-07-24T18:22:11+00:00 DEBUG (7): JayCMount@dayrep.com is already signed up to the store.
+2013-07-24T18:47:47+00:00 DEBUG (7): VicentaBSolis@teleworm.us is already signed up to the store.
+2013-07-24T18:50:45+00:00 DEBUG (7): AlmaGEvans@dayrep.com is already signed up to the store.
+2013-07-24T19:06:32+00:00 DEBUG (7): KatherineDBoyd@rhyta.com is already signed up to the store.
+2013-07-24T19:19:36+00:00 DEBUG (7): MichaelCVang@teleworm.us is already signed up to the store.
+2013-07-24T19:23:10+00:00 DEBUG (7): AnnaMBowman@teleworm.us is already signed up to the store.
+2013-07-24T19:34:38+00:00 DEBUG (7): WilliamSBarber@teleworm.us is already signed up to the store.
+2013-07-24T19:38:07+00:00 DEBUG (7): SethLCarter@rhyta.com is already signed up to the store.
+2013-07-24T19:46:50+00:00 DEBUG (7): JamesLClausen@rhyta.com is already signed up to the store.
+2013-07-24T19:50:50+00:00 DEBUG (7): CalvinSTaylor@dayrep.com is already signed up to the store.
+2013-07-24T20:03:25+00:00 DEBUG (7): RobertNHarris@rhyta.com is already signed up to the store.
+2013-07-24T20:03:27+00:00 DEBUG (7): RobertNHarris@rhyta.com is already signed up to the store.
+2013-07-24T20:11:56+00:00 DEBUG (7): MarcellaGRowden@rhyta.com is already signed up to the store.
+2013-07-24T20:13:40+00:00 DEBUG (7): yolandas@rgrdlaw.com is already signed up to the store.
+2013-07-25T15:37:54+00:00 DEBUG (7): Customer with e-mail argelia13@yahoo.com tried to refer his/her self argelia13@yahoo.com.
+2013-07-26T23:17:02+00:00 DEBUG (7): The referral email in the session is invalid: ellepuppy66@gmail.com
+2013-07-26T23:17:05+00:00 DEBUG (7): The referral email in the session is invalid: ellepuppy66@gmail.com
+2013-07-30T16:08:58+00:00 DEBUG (7): Customer with e-mail lukate@lesconcierges.com tried to refer his/her self lukate@lesconcierges.com.
+2013-07-31T19:03:43+00:00 DEBUG (7): The referral email in the session is invalid: michaelkyle@gmail.com
+2013-07-31T19:12:06+00:00 DEBUG (7): The referral email in the session is invalid: michaelkyle@gmail.com
+2013-08-01T18:07:05+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-08-02T00:27:07+00:00 DEBUG (7): The referral email in the session is invalid: Àq¥\eµ»
+2013-08-02T00:27:10+00:00 DEBUG (7): The referral email in the session is invalid: Àq¥\eµ»
+2013-08-06T12:51:31+00:00 DEBUG (7): Customer with e-mail jogarcia1973@hotmail.com tried to refer his/her self jogarcia1973@hotmail.com.
+2013-08-07T10:53:28+00:00 DEBUG (7): The referral email in the session is invalid: zensei999@yahoo.com
+2013-08-07T10:53:30+00:00 DEBUG (7): The referral email in the session is invalid: zensei999@yahoo.com
+2013-08-08T03:04:54+00:00 DEBUG (7): Cindylam_12@yahoo.com is your own e-mail address.
+2013-08-08T16:50:13+00:00 DEBUG (7): Customer with e-mail ghgeorgieva@yahoo.com tried to refer his/her self ghgeorgieva@yahoo.com.
+2013-08-11T15:41:08+00:00 DEBUG (7): Customer with e-mail ndasgup@gmail.com tried to refer his/her self ndasgup@gmail.com.
+2013-08-12T05:32:19+00:00 DEBUG (7): The referral email in the session is invalid: jericgaluego@yahoo.com
+2013-08-12T05:32:21+00:00 DEBUG (7): The referral email in the session is invalid: jericgaluego@yahoo.com
+2013-08-15T20:19:35+00:00 DEBUG (7): Customer with e-mail cpcasallos@yahoo.com tried to refer his/her self cpcasallos@yahoo.com.
+2013-08-16T15:09:48+00:00 DEBUG (7): Customer with e-mail rghrtwaer@shoeonlineblog.com tried to refer his/her self rghrtwaer@shoeonlineblog.com.
+2013-08-17T06:52:25+00:00 DEBUG (7): Customer with e-mail jyujadwax@shoeonlineblog.com tried to refer his/her self jyujadwax@shoeonlineblog.com.
+2013-08-17T14:49:05+00:00 DEBUG (7): Customer with e-mail erhtrhwqa@shoeonlineblog.com tried to refer his/her self erhtrhwqa@shoeonlineblog.com.
+2013-08-18T17:46:33+00:00 DEBUG (7): Customer with e-mail kevintrannyc@yahoo.com tried to refer his/her self kevintrannyc@yahoo.com.
+2013-08-18T18:29:47+00:00 DEBUG (7): Customer with e-mail kevintrannyc@yahoo.com tried to refer his/her self kevintrannyc@yahoo.com.
+2013-08-18T20:33:30+00:00 DEBUG (7): Customer with e-mail kevintrannyc@yahoo.com tried to refer his/her self kevintrannyc@yahoo.com.
+2013-08-18T20:37:58+00:00 DEBUG (7): Customer with e-mail kevintrannyc@yahoo.com tried to refer his/her self kevintrannyc@yahoo.com.
+2013-08-18T20:38:32+00:00 DEBUG (7): Customer with e-mail kevintrannyc@yahoo.com tried to refer his/her self kevintrannyc@yahoo.com.
+2013-08-18T20:51:07+00:00 DEBUG (7): Customer with e-mail kevintrannyc@yahoo.com tried to refer his/her self kevintrannyc@yahoo.com.
+2013-08-18T21:26:58+00:00 DEBUG (7): Customer with e-mail kevintrannyc@yahoo.com tried to refer his/her self kevintrannyc@yahoo.com.
+2013-08-20T18:06:53+00:00 DEBUG (7): adellalott@live.com is already signed up to the store.
+2013-08-24T06:36:37+00:00 DEBUG (7): Customer with e-mail hythtaws@shoeonlineblog.com tried to refer his/her self hythtaws@shoeonlineblog.com.
+2013-08-25T07:05:38+00:00 DEBUG (7): The referral email in the session is invalid: vincent_cervantez@yahoo.com
+2013-08-25T07:05:41+00:00 DEBUG (7): The referral email in the session is invalid: vincent_cervantez@yahoo.com
+2013-08-26T18:20:00+00:00 DEBUG (7): The referral email in the session is invalid: jetjwr22@yahoo.com
+2013-08-26T18:31:37+00:00 DEBUG (7): The referral email in the session is invalid: jetjwr22@yahoo.com
+2013-08-26T18:35:13+00:00 DEBUG (7): The referral email in the session is invalid: jetjwr22@yahoo.com
+2013-08-26T18:44:25+00:00 DEBUG (7): The referral email in the session is invalid: jetjwr22@yahoo.com
+2013-08-26T18:44:27+00:00 DEBUG (7): The referral email in the session is invalid: jetjwr22@yahoo.com
+2013-08-27T19:53:12+00:00 DEBUG (7): The referral email in the session is invalid: ±1à‹0LÀ
+2013-09-02T08:34:14+00:00 DEBUG (7): Customer with e-mail stefst3r@yahoo.com tried to refer his/her self stefst3r@yahoo.com.
+2013-09-03T10:30:04+00:00 DEBUG (7): Customer with e-mail newfefs@hotmail.com tried to refer his/her self newfefs@hotmail.com.
+2013-09-04T19:59:34+00:00 DEBUG (7): Customer with e-mail lauren.desantis@vungle.com tried to refer his/her self lauren.desantis@vungle.com.
+2013-09-06T01:52:52+00:00 DEBUG (7): Customer with e-mail jasonmeki@gmail.com tried to refer his/her self jasonmeki@gmail.com.
+2013-09-06T01:57:58+00:00 DEBUG (7): Customer with e-mail jasonmeki@gmail.com tried to refer his/her self jasonmeki@gmail.com.
+2013-09-10T23:07:54+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-09-10T23:07:55+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-09-10T23:07:59+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-09-10T23:08:01+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-09-11T17:04:18+00:00 DEBUG (7): Dispatched an event after the customer account creation method, but no data was found in app\code\community\TBT\RewardsReferral\Model\Observer\Createaccount.php in TBT_RewardsReferral_Model_Observer_Createaccount::attemptReferralCheck.
+2013-09-11T23:46:54+00:00 DEBUG (7): Customer with e-mail rachelvalidum@hotmail.com tried to refer his/her self rachelvalidum@hotmail.com.
+2013-09-12T23:18:55+00:00 DEBUG (7): Customer with e-mail ack@a-klaw.com tried to refer his/her self ack@a-klaw.com.
+2013-09-13T06:05:40+00:00 DEBUG (7): Customer with e-mail dohzen@gmail.com tried to refer his/her self dohzen@gmail.com.
+2013-09-15T19:37:28+00:00 DEBUG (7): ylag@ymail.com is already signed up to the store.
+2013-09-17T21:24:22+00:00 DEBUG (7): Customer with e-mail nburigin@wsgr.com tried to refer his/her self nburigin@wsgr.com.
+2013-09-17T21:37:03+00:00 DEBUG (7): Customer with e-mail nburigin@wsgr.com tried to refer his/her self nburigin@wsgr.com.
+2013-09-17T23:50:00+00:00 DEBUG (7): Customer with e-mail imaniburns26@gmail.com tried to refer his/her self imaniburns26@gmail.com.
+2013-09-19T16:19:59+00:00 DEBUG (7): Customer with e-mail matthew.semans@am.jll.com tried to refer his/her self matthew.semans@am.jll.com.
+2013-09-20T08:36:58+00:00 DEBUG (7): Customer with e-mail youngjooo@gmail.com tried to refer his/her self youngjooo@gmail.com.
+2013-09-20T08:39:05+00:00 DEBUG (7): Customer with e-mail youngjooo@gmail.com tried to refer his/her self youngjooo@gmail.com.
+2013-09-21T19:36:22+00:00 DEBUG (7): The referral email in the session is invalid: ncmatthews@yahoo.com
+2013-09-22T03:55:17+00:00 DEBUG (7): The referral email in the session is invalid: mymaridulce@gmail.com
+2013-09-22T03:55:20+00:00 DEBUG (7): The referral email in the session is invalid: mymaridulce@gmail.com
+2013-09-24T04:00:32+00:00 DEBUG (7): The referral email in the session is invalid: ßk2fı{ã
+2013-09-24T04:08:00+00:00 DEBUG (7): The referral email in the session is invalid: ßk2fı{ã
+2013-09-24T04:08:03+00:00 DEBUG (7): The referral email in the session is invalid: ßk2fı{ã
+2013-09-25T17:25:38+00:00 DEBUG (7): Customer with e-mail shannon.kemball@yahoo.com tried to refer his/her self shannon.kemball@yahoo.com.
+2013-09-25T19:07:19+00:00 DEBUG (7): The referral email in the session is invalid: awudel@ustream.tv
+2013-09-25T19:17:12+00:00 DEBUG (7): The referral email in the session is invalid: awudel@ustream.tv
+2013-09-25T19:22:39+00:00 DEBUG (7): The referral email in the session is invalid: awudel@ustream.tv
+2013-09-25T19:23:16+00:00 DEBUG (7): The referral email in the session is invalid: awudel@ustream.tv
+2013-09-25T19:23:20+00:00 DEBUG (7): The referral email in the session is invalid: awudel@ustream.tv
+2013-09-26T18:11:44+00:00 DEBUG (7): Customer with e-mail sarah@zebrapartners.net tried to refer his/her self sarah@zebrapartners.net.
+2013-10-02T20:52:16+00:00 DEBUG (7): Customer with e-mail ying81@gmail.com tried to refer his/her self ying81@gmail.com.
+2013-10-06T19:09:52+00:00 DEBUG (7): Customer with e-mail eddie.kim@gmail.com tried to refer his/her self eddie.kim@gmail.com.
+2013-10-08T05:49:39+00:00 DEBUG (7): Customer with e-mail teti_o@hotmail.com tried to refer his/her self teti_o@hotmail.com.
+2013-10-09T15:31:17+00:00 DEBUG (7): The referral email in the session is invalid: thuprinchen@yahoo.com
+2013-10-09T15:31:21+00:00 DEBUG (7): The referral email in the session is invalid: thuprinchen@yahoo.com
+2013-10-10T16:28:53+00:00 DEBUG (7): The referral email in the session is invalid: leigh@romotive.com
+2013-10-10T16:32:24+00:00 DEBUG (7): The referral email in the session is invalid: leigh@romotive.com
+2013-10-10T16:32:28+00:00 DEBUG (7): The referral email in the session is invalid: leigh@romotive.com
+2013-10-11T02:52:41+00:00 DEBUG (7): Customer with e-mail coy_lisan01@yahoo.com tried to refer his/her self coy_lisan01@yahoo.com.
+2013-10-11T20:36:27+00:00 DEBUG (7): Customer with e-mail hollybeth@hollybeth.net tried to refer his/her self hollybeth@hollybeth.net.
+2013-10-12T00:57:31+00:00 DEBUG (7): Customer with e-mail kirstinkowalsky@me.com tried to refer his/her self kirstinkowalsky@me.com.
+2013-10-14T23:00:47+00:00 DEBUG (7): Customer with e-mail annelo@gene.com tried to refer his/her self annelo@gene.com.
+2013-10-14T23:03:35+00:00 DEBUG (7): Customer with e-mail annelo@gene.com tried to refer his/her self annelo@gene.com.
+2013-10-16T11:01:25+00:00 DEBUG (7): Customer with e-mail mariazaczyk@gmail.com tried to refer his/her self mariazaczyk@gmail.com.
+2013-10-21T01:55:26+00:00 DEBUG (7): Customer with e-mail larryfranty@mac.com tried to refer his/her self larryfranty@mac.com.
+2013-10-25T23:03:51+00:00 DEBUG (7): Customer with e-mail icethachilla@yahoo.com tried to refer his/her self icethachilla@yahoo.com.
+2013-10-25T23:12:35+00:00 DEBUG (7): Customer with e-mail icethachilla@yahoo.com tried to refer his/her self icethachilla@yahoo.com.
+2013-10-27T00:14:16+00:00 DEBUG (7): Customer with e-mail preet91samra@yahoo.com tried to refer his/her self preet91samra@yahoo.com.
+2013-10-27T03:41:52+00:00 DEBUG (7): Customer with e-mail sopheakb@yahoo.com tried to refer his/her self sopheakb@yahoo.com.
+2013-10-31T20:45:13+00:00 DEBUG (7): Customer with e-mail gabriela.osu@gmail.com tried to refer his/her self gabriela.osu@gmail.com.
+2013-11-01T01:15:50+00:00 DEBUG (7): The referral email in the session is invalid: fdsfdsasdf@dfffsdfsd.com
+2013-11-01T01:16:31+00:00 DEBUG (7): The referral email in the session is invalid: fdsfdsasdf@dfffsdfsd.com
+2013-11-01T19:08:32+00:00 DEBUG (7): The referral email in the session is invalid: huili1012@gmail.com
+2013-11-04T20:26:07+00:00 DEBUG (7): The referral email in the session is invalid: veronica@indexventures.com
+2013-11-04T20:30:04+00:00 DEBUG (7): Veronica@indexventures.com is your own e-mail address.
+2013-11-04T20:30:06+00:00 DEBUG (7): Veronica@indexventures.com is your own e-mail address.
+2013-11-05T22:55:17+00:00 DEBUG (7): The referral email in the session is invalid: ªΩÈ8ª∏
+2013-11-05T23:03:59+00:00 DEBUG (7): The referral email in the session is invalid: ªΩÈ8ª∏
+2013-11-05T23:04:03+00:00 DEBUG (7): The referral email in the session is invalid: ªΩÈ8ª∏
+2013-11-07T10:53:29+00:00 DEBUG (7): Customer with e-mail vicki_dorman@yahoo.co.uk tried to refer his/her self vicki_dorman@yahoo.co.uk.
+2013-11-08T05:38:28+00:00 DEBUG (7): Customer with e-mail mandyzhen78923@gmail.com tried to refer his/her self mandyzhen78923@gmail.com.
+2013-11-08T13:52:05+00:00 DEBUG (7): The referral email in the session is invalid: ªΩÈ8ª∏
+2013-11-08T13:52:08+00:00 DEBUG (7): The referral email in the session is invalid: ªΩÈ8ª∏
+2013-11-16T17:33:27+00:00 DEBUG (7): Customer with e-mail kaymeikuentong@hotmail.com tried to refer his/her self kaymeikuentong@hotmail.com.
+2013-11-26T21:19:35+00:00 DEBUG (7): Customer with e-mail jennychen447@gmail.com tried to refer his/her self jennychen447@gmail.com.
+2013-12-02T07:32:24+00:00 DEBUG (7): The referral email in the session is invalid: perkinelmer@gmail.com
+2013-12-03T01:19:00+00:00 DEBUG (7): The referral email in the session is invalid: 0anthonywong0@gmail.com
+2013-12-04T12:15:50+00:00 DEBUG (7): Customer with e-mail perkinelmer@gmail.com tried to refer his/her self perkinelmer@gmail.com.
+2013-12-08T21:22:40+00:00 DEBUG (7): Customer with e-mail sjang@cox.net tried to refer his/her self sjang@cox.net.
+2013-12-09T01:54:41+00:00 DEBUG (7): Customer with e-mail tinyhoneybear@gmail.com tried to refer his/her self tinyhoneybear@gmail.com.
+2013-12-10T05:21:41+00:00 DEBUG (7): Customer with e-mail lesliesolano96@yahoo.com tried to refer his/her self lesliesolano96@yahoo.com.
+2013-12-11T00:47:26+00:00 DEBUG (7): Customer with e-mail like_a_fisha@yahoo.com tried to refer his/her self like_a_fisha@yahoo.com.
+2014-05-13T22:18:24+00:00 DEBUG (7): Customer with e-mail joanne168@hotmail.com tried to refer his/her self joanne168@hotmail.com.
+2014-05-16T06:55:30+00:00 DEBUG (7): Customer with e-mail ross.annabelle@gmail.com tried to refer his/her self ross.annabelle@gmail.com.
+2014-05-16T23:44:23+00:00 DEBUG (7): Customer with e-mail sd2333@nyu.edu tried to refer his/her self sd2333@nyu.edu.
+2014-05-17T19:55:31+00:00 DEBUG (7): Customer with e-mail astridesq@hotmail.com tried to refer his/her self astridesq@hotmail.com.
+2014-05-23T21:50:08+00:00 DEBUG (7): The referral email in the session is invalid: àº;B±‰Vê
+2014-05-24T20:16:17+00:00 DEBUG (7): Customer with e-mail juju10.js@gmail.com tried to refer his/her self juju10.js@gmail.com.
+2014-05-26T00:02:59+00:00 DEBUG (7): Customer with e-mail ggs@cox.net tried to refer his/her self ggs@cox.net.
+2014-05-27T20:23:39+00:00 DEBUG (7): The referral email in the session is invalid: Ñu®Å~ ﬂÄ
+2014-05-27T20:23:40+00:00 DEBUG (7): The referral email in the session is invalid: Ñu®Å~ ﬂÄ
+2014-05-27T20:30:41+00:00 DEBUG (7): The referral email in the session is invalid: Ñu®Å~ ﬂÄ
+2014-05-27T22:49:03+00:00 DEBUG (7): thomcole2882@gmail.com is already signed up to the store.
+2014-05-29T23:28:46+00:00 DEBUG (7): Customer with e-mail lmahoneymaver@consultcelerity.com tried to refer his/her self lmahoneymaver@consultcelerity.com.
+2014-06-03T16:32:29+00:00 DEBUG (7): The referral email in the session is invalid: Ê2hœª<0
+2014-06-03T16:32:30+00:00 DEBUG (7): The referral email in the session is invalid: Ê2hœª<0
+2014-06-03T16:42:12+00:00 DEBUG (7): The referral email in the session is invalid: Ê2hœª<0
+2014-06-05T18:32:23+00:00 DEBUG (7): Customer with e-mail jbois@levi.com tried to refer his/her self jbois@levi.com.
+2014-06-06T14:15:35+00:00 DEBUG (7): Customer with e-mail kiran.josen@gmail.com tried to refer his/her self kiran.josen@gmail.com.
+2014-06-06T14:17:05+00:00 DEBUG (7): Customer with e-mail kiran.josen@gmail.com tried to refer his/her self kiran.josen@gmail.com.
+2014-06-06T14:17:35+00:00 DEBUG (7): Customer with e-mail kiran.josen@gmail.com tried to refer his/her self kiran.josen@gmail.com.
+2014-06-06T17:12:33+00:00 DEBUG (7): The referral email in the session is invalid: e‡ÕÃ⁄Ò§ò
+2014-06-06T17:16:33+00:00 DEBUG (7): The referral email in the session is invalid: e‡ÕÃ⁄Ò§ò
+2014-06-06T19:24:45+00:00 DEBUG (7): The referral email in the session is invalid: e‡ÕÃ⁄Ò§ò
+2014-06-12T17:03:48+00:00 DEBUG (7): Customer with e-mail acoppola@levi.com tried to refer his/her self acoppola@levi.com.
+2014-06-12T17:04:17+00:00 DEBUG (7): Customer with e-mail acoppola@levi.com tried to refer his/her self acoppola@levi.com.
+2014-06-12T17:04:40+00:00 DEBUG (7): Customer with e-mail acoppola@levi.com tried to refer his/her self acoppola@levi.com.
+2014-06-12T17:05:00+00:00 DEBUG (7): Customer with e-mail acoppola@levi.com tried to refer his/her self acoppola@levi.com.
+2014-06-16T02:17:24+00:00 DEBUG (7): Customer with e-mail eleonor.manuel@gmail.com tried to refer his/her self eleonor.manuel@gmail.com.
+2014-06-17T01:06:45+00:00 DEBUG (7): The referral email in the session is invalid: yoshent@comcast.net
+2014-06-17T01:06:46+00:00 DEBUG (7): The referral email in the session is invalid: yoshent@comcast.net
+2014-06-17T12:46:20+00:00 DEBUG (7): Customer with e-mail jamie.feinberg@barclays.com tried to refer his/her self jamie.feinberg@barclays.com.
+2014-06-17T12:46:32+00:00 DEBUG (7): Customer with e-mail jamie.feinberg@barclays.com tried to refer his/her self jamie.feinberg@barclays.com.
+2014-06-17T12:46:53+00:00 DEBUG (7): Customer with e-mail jamie.feinberg@barclays.com tried to refer his/her self jamie.feinberg@barclays.com.
+2014-06-17T12:47:26+00:00 DEBUG (7): The referral email in the session is invalid: jamie.feinberg@barclays.com
+2014-06-17T12:47:36+00:00 DEBUG (7): The referral email in the session is invalid: jamie.feinberg@barclays.com
+2014-06-17T12:48:43+00:00 DEBUG (7): Customer with e-mail jamie.feinberg@barclays.com tried to refer his/her self jamie.feinberg@barclays.com.
+2014-06-17T12:48:46+00:00 DEBUG (7): jamie.feinberg@barclays.com is your own e-mail address.
+2014-06-17T13:06:51+00:00 DEBUG (7): jamie.feinberg@barclays.com is your own e-mail address.
+2014-06-18T20:02:39+00:00 DEBUG (7): Customer with e-mail tinibus@yahoo.com tried to refer his/her self tinibus@yahoo.com.
+2014-06-18T20:35:06+00:00 DEBUG (7): Customer with e-mail esfletcher70@gmail.com tried to refer his/her self esfletcher70@gmail.com.
+2014-06-22T02:00:55+00:00 DEBUG (7): Customer with e-mail green.l.jada@gmail.com tried to refer his/her self green.l.jada@gmail.com.
+2014-06-22T19:51:08+00:00 DEBUG (7): Customer with e-mail joellelevine@yahoo.com tried to refer his/her self joellelevine@yahoo.com.
+2014-06-22T19:51:50+00:00 DEBUG (7): Customer with e-mail joellelevine@yahoo.com tried to refer his/her self joellelevine@yahoo.com.
+2014-06-27T02:52:49+00:00 DEBUG (7): Customer with e-mail emilyjan11@yahoo.com tried to refer his/her self emilyjan11@yahoo.com.
+2014-06-30T18:40:56+00:00 DEBUG (7): Customer with e-mail macalvint@gmail.com tried to refer his/her self macalvint@gmail.com.
+2014-06-30T18:44:38+00:00 DEBUG (7): Customer with e-mail macalvint@gmail.com tried to refer his/her self macalvint@gmail.com.

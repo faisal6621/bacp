@@ -1,0 +1,97 @@
+#cblocks{
+    width: 100%;
+    margin-top: 75px;
+    float: left;
+}
+#cblocks .content{
+    float: left;
+    padding-left: 330px;
+    position: relative;
+    width: 100%;
+}
+#cblocks .content .right{
+    width: 100%;
+    background: none repeat scroll 0% 0% #FFF;
+    padding: 3%;
+    margin: 15px 0;
+    /*margin-left: 2%;*/
+    box-shadow: 1px 1px 5px #aaa;
+    float: right;
+}
+#cblocks .content .right h2{
+    font-family: WendyLPStd-Bold;
+    font-size: 50px;
+    color: #4c90c1;
+}
+#cblocks .content .right h3{
+    font-size: 22px;
+    padding-top: 10px;
+}
+#cblocks .content .right p{
+    font-family: sans-serif;
+    color: rgba(68, 68, 68, 0.7);
+}
+#cblocks .content .right hr{
+    height: 1px;
+    background: #aaa;
+}
+#cblocks .content .left{
+    position: absolute;
+    left: 0;
+    min-width: 300px;
+    width: 28%;
+    margin: 15px 0;
+}
+#cblocks .content .left .block{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px #aaa;
+    margin: 0 0 10px;
+}
+#cblocks .content .left .block h3{
+    background: url('../images/foot-top.png') repeat scroll 0px 0px transparent;
+    padding: 10px 15px 10px 20px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #777;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#cblocks .content .left .block h3 img{
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+#cblocks .content .left .block ul li{
+    padding: 10px 15px 10px 25px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+    background: url('../images/right-arr-w-cbl.png') no-repeat 10px 11px;
+}
+#cblocks .content .left .block ul li:first-child{
+    border-top: none;
+}
+#cblocks .content .left .block ul li:last-child{
+    border-bottom: none;
+}
+#cblocks .content .left .block ul li:hover{
+    background: url('../images/right-arr-b-cbl.png') no-repeat 10px 11px;
+}
+#cblocks .content .left .block ul li:hover a{
+    color: #2A6496;
+}
+@media screen and (max-width: 700px){
+    #cblocks .content{
+        padding-left: 0;
+    }
+    #cblocks .content .left{
+        position: relative;
+        width: 100%;
+    }
+    #cblocks .content .left .block h3 ~ ul{
+        display: none;
+    }
+    #cblocks .content .left .block:hover h3 ~ ul{
+        display: block;
+    }
+}

@@ -1,0 +1,92 @@
+<?php $_order = $this->getOrder() ?>
+<div class="order-summary">
+    <h3><?php echo $this->__('ORDER SUMMARY'); ?></h3>
+    <div class="item-details">
+        <span class="product-count"><?php echo $_order->getTotalItemCount() . ' ' . $this->__('Items') //count($_order->getAllVisibleItems());          ?></span>
+        <span class="product-total"><?php echo Mage::helper('core')->currency($_order->getSubtotal(), true, false); ?></span>
+    </div>
+    <hr/>
+    <?php if (!$_order->getIsVirtual()):; ?>
+        <div class="delivery-details">
+            <h4><?php echo $this->__('Receiving Options'); ?>:</h4>
+            <?php if ($_order->getShippingDescription()): ?>
+                <div class="delivery">
+                    <div class="icon"><img src="<?php echo $this->getSkinUrl('images/delivery-feet.png'); ?>" alt="Pickup" /></div>
+                    <div class="details">
+                        <h5><?php echo $this->__('Pickup'); ?></h5>
+                        <p class="description"><?php echo $this->escapeHtml($_order->getShippingDescription()) ?></p>
+                        <p class="date"><span><?php echo $this->__('Ready on'); ?></span> <?php echo date('M jS, Y @ ha'); ?></p>
+                    </div>
+                </div>
+            <?php else: ?>
+                <p><?php echo $this->helper('sales')->__('No shipping information available'); ?></p>
+            <?php endif; ?>
+        </div>
+        <hr/>
+        <?php
+        /*
+          <div class="col2-set order-info-box">
+          <div class="col-1">
+          <div class="box">
+          <div class="box-title">
+          <h2><?php echo $this->__('Shipping Address') ?></h2>
+          </div>
+          <div class="box-content">
+          <address><?php echo $_order->getShippingAddress()->format('html') ?></address>
+          </div>
+          </div>
+          </div>
+          <div class="col-2">
+          <div class="box">
+          <div class="box-title">
+          <h2><?php echo $this->__('Shipping Method') ?></h2>
+          </div>
+          <div class="box-content">
+          <?php if ($_order->getShippingDescription()): ?>
+          <?php echo $this->escapeHtml($_order->getShippingDescription()) ?>
+          <?php else: ?>
+          <p><?php echo $this->helper('sales')->__('No shipping information available'); ?></p>
+          <?php endif; ?>
+          </div>
+          </div>
+          </div>
+          </div>
+
+         */
+        ?>
+    <?php endif; ?>
+    <?php
+    /*
+      <div class="col2-set order-info-box">
+      <div class="col-1">
+      <div class="box">
+      <div class="box-title">
+      <h2><?php echo $this->__('Billing Address') ?></h2>
+      </div>
+      <div class="box-content">
+      <address><?php echo $_order->getBillingAddress()->format('html') ?></address>
+      </div>
+      </div>
+      </div>
+      <div class="col-2">
+      <div class="box box-payment">
+      <div class="box-title">
+      <h2><?php echo $this->__('Payment Method') ?></h2>
+      </div>
+      <div class="box-content">
+      <?php echo $this->getPaymentInfoHtml() ?>
+      </div>
+      </div>
+      </div>
+      </div>
+     */
+    ?>
+    <div class="price-details">
+        <?php
+        $block = $this->getLayout()->createBlock('tax/sales_order_tax')->setTemplate('ordersuccesspage/tax.phtml');
+        $totals_block = $this->getLayout()->createBlock('sales/order_totals')->setTemplate('ordersuccesspage/totals.phtml')->setLabelProperties('class="a-left"')->setValueProperties('class="last a-right"')->append($block);
+        echo $totals_block->toHtml();
+        ?>
+        <div class="payment-details"><?php echo $this->getPaymentInfoHtml() ?></div>
+    </div>
+</div>

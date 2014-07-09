@@ -1,0 +1,218 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Shopping cart template
+ *
+ * @see Mage_Checkout_Block_Cart
+ */
+?>
+<div class="cart">
+    <div class="banner-cart">
+        <?php /* ?>
+          <img src="<?php echo Mage::getBaseUrl('media') . "theme/" . Mage::getStoreConfig('hero/hero_group/hero_input5') ?>" />
+          <?php */ ?>
+        <img src="<?php echo $this->getSkinUrl('images/banner-cupcake-osp.png'); ?>" alt="  " />
+        <p><?php echo $this->__('Your Shopping Basket'); ?></p>
+    </div>
+    <div class="page-title">
+        <?php $customer = Mage::getSingleton('customer/session') ?>
+        <?php if ($customer->isLoggedIn()): ?>
+            <h1><?php echo $this->__('Welcome Back, %s!', $customer->getCustomer()->getFirstname()) ?></h1>
+        <?php else: ?>
+            <small><?php echo $this->__("You aren't logged in. Please <a href='%s' title='%s'>%s</a> to your account. If this is your first time here, speed up future purchases by <a href='%s' title='%s'>%s</a>.", $this->getUrl('customer/account/login'), 'Sign In', 'Sign In', $this->getUrl('customer/account/register'), 'Create an Account', 'Creating an Account');
+            ?></small>
+        <?php endif; ?>
+        <?php /* if(!$this->hasError()): ?>
+          <ul class="checkout-types">
+          <?php foreach ($this->getMethods('top_methods') as $method): ?>
+          <?php if ($methodHtml = $this->getMethodHtml($method)): ?>
+          <li><?php echo $methodHtml; ?></li>
+          <?php endif; ?>
+          <?php endforeach; ?>
+          </ul>
+          <?php endif; */ ?>
+    </div>
+    <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+    <?php echo $this->getChildHtml('form_before') ?>
+    <form action="<?php echo $this->getUrl('checkout/cart/updatePost') ?>" method="post">
+        <fieldset>
+            <table id="shopping-cart-table" class="data-table cart-table">
+                <?php /* ?>
+                  <col width="1" />
+                  <col />
+                  <col width="1" />
+                  <?php if ($this->helper('wishlist')->isAllowInCart()) : ?>
+                  <col width="1" />
+                  <?php endif ?>
+                  <?php if ($this->helper('tax')->displayCartPriceExclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
+                  <col width="1" />
+                  <?php endif; ?>
+                  <?php if ($this->helper('tax')->displayCartPriceInclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
+                  <col width="1" />
+                  <?php endif; ?>
+                  <col width="1" />
+                  <?php if ($this->helper('tax')->displayCartPriceExclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
+                  <col width="1" />
+                  <?php endif; ?>
+                  <?php if ($this->helper('tax')->displayCartPriceInclTax() || $this->helper('tax')->displayCartBothPrices()): ?>
+                  <col width="1" />
+                  <?php endif; ?>
+                  <col width="1" />
+
+                  <?php $mergedCells = ($this->helper('tax')->displayCartBothPrices() ? 2 : 1); ?>
+                  <?php */ ?>
+                <thead>
+                    <tr>
+                        <th><?php echo $this->__('Product') ?></th>
+                        <th><?php echo $this->__('Quantity') ?></th>
+                        <th><?php echo $this->__('Price') ?></th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="50" class="a-right">
+                            <?php if ($this->getContinueShoppingUrl()): ?>
+                                <button type="button" title="<?php echo $this->__('Continue Shopping') ?>" class="button btn-continue" onclick="setLocation('<?php echo $this->getContinueShoppingUrl() ?>')"><span><span><?php echo $this->__('Continue Shopping') ?></span></span></button>
+                            <?php endif; ?>
+                            <button type="submit" name="update_cart_action" value="empty_cart" title="<?php echo $this->__('Clear Shopping Cart'); ?>" class="button btn-empty" id="empty_cart_button"><span><span><?php echo $this->__('Empty Cart'); ?></span></span></button>
+                            <button type="submit" name="update_cart_action" value="update_qty" title="<?php echo $this->__('Update Shopping Cart'); ?>" class="button btn-update"><span><span><?php echo $this->__('Update Cart'); ?></span></span></button>
+                            <!--[if lt IE 8]>
+                            <input type="hidden" id="update_cart_action_container" />
+                            <script type="text/javascript">
+                            //<![CDATA[
+                                Event.observe(window, 'load', function()
+                                {
+                                    // Internet Explorer (lt 8) does not support value attribute in button elements
+                                    $emptyCartButton = $('empty_cart_button');
+                                    $cartActionContainer = $('update_cart_action_container');
+                                    if ($emptyCartButton && $cartActionContainer) {
+                                        Event.observe($emptyCartButton, 'click', function()
+                                        {
+                                            $emptyCartButton.setAttribute('name', 'update_cart_action_temp');
+                                            $cartActionContainer.setAttribute('name', 'update_cart_action');
+                                            $cartActionContainer.setValue('empty_cart');
+                                        });
+                                    }
+
+                                });
+                            //]]>
+                            </script>
+                            <![endif]-->
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <?php foreach ($this->getItems() as $_item): ?>
+                        <?php echo $this->getItemHtml($_item) ?>
+                    <?php endforeach ?>
+                </tbody>
+            </table>
+            <script type="text/javascript">decorateTable('shopping-cart-table')</script>
+            <?php $shipping = Mage::getSingleton('checkout/session')->getQuote()->getShippingAddress() ?>
+            <?php if ($shipping->getShippingDescription() || TRUE): ?>
+                <hr/>
+                <div class="delivery-details">
+                    <div class="delivery">
+                        <div class="icon">
+                            <img src="<?php echo $this->getSkinUrl('images/delivery-feet.png'); ?>" alt="<?php echo $this->__('Pickup'); ?>" />
+                        </div>
+                        <div class="details">
+                            <h4><?php echo $this->__('Receiving Options:'); ?> <span class="option"><?php echo $this->__('Pickup'); ?></span></h4>
+
+                            <p class="description"><?php echo $shipping->getShippingDescription() ? $shipping->getShippingDescription() : $this->__('Japantown (Kintetsu Mall)'); ?></p>
+                            <p class="date"><span><?php echo $this->__('Ready on'); ?></span> <?php echo date('M jS, Y @ ha'); ?></p>
+                        </div>
+                    </div>
+                    <div class="msg">
+                        <h5><?php echo $this->__('Need to change this?'); ?></h5>
+                        <p><?php echo $this->__('You can do so as you complete your purchase.'); ?></p>
+                    </div>
+                </div>
+            <?php endif; ?>
+            <?php /* ?>
+              <?php
+              $items = Mage::getSingleton('checkout/session')->getQuote()->getAllVisibleItems();
+              foreach ($items as $item):
+              $option = $item->getProduct()->getTypeInstance(true)->getOrderOptions($item->getProduct());
+              if (isset($option['info_buyRequest']['pickup-delivery'])):
+              ?>
+              <pre><?php
+              echo $option['info_buyRequest']['pickup-delivery'];
+              ?></pre>
+              <?php endif; ?>
+              <?php endforeach; ?>
+              <?php */ ?>
+        </fieldset>
+    </form>
+    <div class="cart-collaterals">
+        <h3><?php echo $this->__('Order Summary'); ?></h3>
+        <div class="cart-summary"><?php echo $this->__('There are <span>%d %s</span> in your basket', $this->getItemsSummaryQty(), $this->getItemsSummaryQty() > 1 ? "items" : "item"); ?></div>
+        <hr/>
+        <div class="reward-points">
+            <?php echo $this->getChildHtml('checkout.cart.extra') ?>
+            <?php echo $this->getChildHtml('coupon') ?>
+            <?php
+            /*
+              echo "<p class='cako-points'>" . $this->__('You currently have ') . $this->getLayout()
+              ->getBlockSingleton('rewards/customer_summary')
+              ->getCustomerPointsSummary() . "</p>";
+
+             */
+            ?>
+            <?php echo $this->getChildHtml('cartpoints_spender') ?>
+            <?php /* Extensions placeholder */ ?>
+            <?php /* if (!$this->getIsVirtual()): echo $this->getChildHtml('shipping'); endif; */ ?>
+        </div>
+        <hr/>
+        <div class="totals">
+            <?php echo $this->getChildHtml('totals'); ?>
+            <?php if (!$this->hasError()): ?>
+                <ul class="checkout-types">
+                    <?php foreach ($this->getMethods('methods') as $method): ?>
+                        <?php if ($methodHtml = $this->getMethodHtml($method)): ?>
+                            <li><?php echo $methodHtml; ?></li>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                </ul>
+            <?php endif; ?>
+        </div>
+        <div class="badge">
+            <ul class="cards">
+                <li><img src="<?php echo $this->getSkinUrl('images/cards/c1.png'); ?>" alt=""></li>
+                <li><img src="<?php echo $this->getSkinUrl('images/cards/c2.png'); ?>" alt=""></li>
+                <li><img src="<?php echo $this->getSkinUrl('images/cards/c3.png'); ?>" alt=""></li>
+                <li><img src="<?php echo $this->getSkinUrl('images/cards/c4.png'); ?>" alt=""></li>
+            </ul>
+            <a href="https://www.braintreegateway.com/merchants/YOUR_MERCHANT_ID/verified" target="_blank">
+                <img src="https://braintree-badges.s3.amazonaws.com/13.png" border="0"/>
+            </a>
+        </div>
+    </div>
+</div>
+<?php echo $this->getChildHtml('crosssell'); ?>
+<?php echo $this->getChildHtml('cart_products_block'); ?>

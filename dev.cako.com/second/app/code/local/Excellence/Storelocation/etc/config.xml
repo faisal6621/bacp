@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Excellence_Storelocation>
+            <version>0.1.0</version>
+        </Excellence_Storelocation>
+    </modules>
+    <frontend>
+        <routers>
+            <storelocation>
+                <use>standard</use>
+                <args>
+                    <module>Excellence_Storelocation</module>
+                    <frontName>store-locations</frontName>
+                </args>
+            </storelocation>
+        </routers>
+        <layout>
+            <updates>
+                <storelocation>
+                    <file>storelocation.xml</file>
+                </storelocation>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+            <storelocation>
+                <use>admin</use>
+                <args>
+                    <module>Excellence_Storelocation</module>
+                    <frontName>store-locations</frontName>
+                </args>
+            </storelocation>
+        </routers>
+    </admin>
+    <adminhtml>
+
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <hero>
+                                            <title>Hero setting</title>
+                                        </hero>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <menu>
+            <storelocation translate="title" module="storelocation">
+                <title>Theme Configuration</title>
+                <sort_order>71</sort_order>
+                <children>
+                    <items module="storelocation">
+                        <title>Store Information</title>
+                        <sort_order>1</sort_order>
+                        <children>
+                            <herobanner>
+                                <title>Hero Component</title>
+                                <action>store-locations/adminhtml_storelocation</action>
+                                <action>adminhtml/system_config/edit/section/hero</action>
+                            </herobanner>
+                            <storeloc>
+                                <title>Configure Store Information</title>
+                                <action>store-locations/adminhtml_storelocation</action>
+                            </storeloc>
+                            <featuredproduct module="storelocation">
+                                <title>Featured product</title>
+                                <sort_order>5</sort_order>
+                                <action>store-locations/adminhtml_featuredproduct</action>
+                            </featuredproduct>
+                        </children>
+
+                    </items>
+                    <homepage>
+                        <title>Home Page</title>
+                        <sort_order>2</sort_order>
+                    </homepage>
+
+                </children>
+            </storelocation>
+            <!-- <storelocation module="storelocation"> <title>Store</title> <sort_order>71</sort_order>
+            <children> </children> </storelocation> -->
+        </menu>
+        <layout>
+            <updates>
+                <storelocation>
+                    <file>storelocation.xml</file>
+                </storelocation>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <!-- <rewrite> <storelocation_url> <from><![CDATA[#^/store/#]]></from>
+        <to><![CDATA[/storelocation/index/view/id/]]></to> <complete>1</complete>
+        </storelocation_url> </rewrite> -->
+        <models>
+            <storelocation>
+                <class>Excellence_Storelocation_Model</class>
+                <resourceModel>storelocation_mysql4</resourceModel>
+            </storelocation>
+            <storelocation_mysql4>
+                <class>Excellence_Storelocation_Model_Mysql4</class>
+                <entities>
+                    <storelocation>
+                        <table>storelocation</table>
+                    </storelocation>
+                    <storeimages>
+                        <table>storeimages</table>
+                    </storeimages>
+                    <featuredproduct>
+                        <table>featuredproduct</table>
+                    </featuredproduct>
+                    <storeproduct>
+                        <table>storeproduct</table>
+                    </storeproduct>
+                </entities>
+            </storelocation_mysql4>
+        </models>
+        <resources>
+            <storelocation_setup>
+                <setup>
+                    <module>Excellence_Storelocation</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </storelocation_setup>
+            <storelocation_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </storelocation_write>
+            <storelocation_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </storelocation_read>
+        </resources>
+        <blocks>
+            <storelocation>
+                <class>Excellence_Storelocation_Block</class>
+            </storelocation>
+        </blocks>
+        <helpers>
+            <storelocation>
+                <class>Excellence_Storelocation_Helper</class>
+            </storelocation>
+        </helpers>
+    </global>
+</config>

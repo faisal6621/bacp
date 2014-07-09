@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Excellence_Posimg>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Excellence_Posimg>
+    </modules>
+</config> 

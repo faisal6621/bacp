@@ -1,0 +1,169 @@
+<?php /*
+  <link rel="stylesheet" type="text/css" href="http://dev.cako.com/js/jquery-ui/css/ui-lightness/jquery-ui-1.10.3.custom.css">
+  <script type="text/javascript" src="http://dev.cako.com/js/jquery-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+ */ ?>
+<script type="text/javascript" src="http://dev.cako.com/js/jquery-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="<?php echo $this->getBaseUrl() ?>js/jquery-ui/js/jquery-ui-timepicker-addon.js"></script>
+<?php $product = $this->getProduct(); ?>
+<?php //date/time ?>
+<div class="product-options" id="product-options-wrapper">
+    <dl class="last">
+        <div class="trinsh1">
+            <dt class="hide-it"><label class="required"><em>*</em><span id="pdselect">Choose One:</span></label></dt>
+            <div class="input-box">
+                    <!--<select name="pickup-delivery" class="required-entry validate-select" id="pickup-delivery">
+                                    <option value="">Please Select One...</option>
+                                    <option value="pickup">Pickup</option>
+                                    <option value="delivery">Delivery</option>
+                    </select>-->
+                <input type="radio" id="radio1" name="pickup-delivery" value="pickup"  />Pickup
+                <input type="radio" id="radio2" name="pickup-delivery" value="delivery"  />Delivery
+            </div>
+        </div>
+
+        <div class="trinsh2">
+            <dt style="height: 21px; padding: 0px;" class="hide-it"><label class="required"><em>*</em>Date</label></dt>
+            <div class="input-box">
+                <input type="text" name="delivery_date" id="delivery_date" class="delivery_date required-entry" value="" />
+            </div>
+        </div>
+        <div class="trinsh3">
+            <dt style="height: 21px; padding: 0px;" class="hide-it"><label class="required"><em>*</em>Time</label></dt>
+            <div class="input-box">
+                <select name="delivery_time" id="delivery_time" class="delivery_time required-entry" value="" ></select>
+            </div>
+        </div>
+
+
+
+        <div class="trinsh4 store-loc">
+            <dt style="height: 21px; padding: 0px;" class="hide-it"><label class="required"><em>*</em>Store Location</label></dt>
+            <div class="input-box">
+                <select name="location" id="location" class="required-entry validate-select" >
+                    <?php echo $this->getPickupLocations(); ?>
+                </select>
+
+            </div>
+        </div>
+
+
+        <div class="trinsh5 store-zip" style="display:none">
+            <dt style="height: 21px; padding: 0px;" class="hide-it"><label class="required"><em>*</em>Delivery Zipcode</label></dt>
+            <div class="input-box">
+                <input style="width:202px; margin: 5px 0 0;"  type="text" name="location_zip" id="location_zip" class="delivery_date required-entry validate-zip validate-delivery-zip" value="" />
+
+            </div>
+        </div>
+
+
+
+
+    </dl>
+</div>
+<?php //date/time ?>
+
+<script type="text/javascript">
+
+    jQuery(document).ready(function() {
+
+        //jQuery('#pickup-delivery').bind('change',function(){
+        jQuery('input[type="radio"]').bind('click', function() {
+            if (jQuery(this).val() == 'pickup') {
+                jQuery('#delivery_date, #delivery_time').val('');
+                jQuery('#location').html('<?php echo $this->getPickupLocations(); ?>');
+                jQuery('#pdselect').text('Pickup');
+                jQuery('.store-zip').hide();
+                jQuery('.store-loc').show();
+                //jQuery('#location').show();
+                createCalendar();
+            }
+            if (jQuery(this).val() == 'delivery') {
+
+
+                jQuery('#delivery_date, #delivery_time').val('');
+                jQuery('#pdselect').text('Delivery Zipcode');
+                jQuery('#location').html('<option value="">Please Select One...</option>');
+                jQuery('.store-zip').show();
+                jQuery('.store-loc').hide();
+
+            }
+            if (jQuery(this).val() == '') {
+                jQuery('#pdselect').text('Select');
+                jQuery('#location_zip').hide();
+                jQuery('#location').show();
+                //jQuery('#location').html('<option value="">Select Location...</option>');
+                jQuery('#delivery_date, #delivery_time').val('');
+                jQuery('#delivery_date').datepicker('destroy');
+
+            }
+            //	}
+        });
+        jQuery('#qty').bind('keyup', function() {
+            if (jQuery('#delivery_date').attr('disabled') != 'disabled') {
+                jQuery('#delivery_date').val('');
+                jQuery('#delivery_date').datepicker('destroy');
+                createCalendar();
+                createTime();
+            }
+        });
+        jQuery("#delivery_date").bind('change', function() {
+            createTime();
+        });
+        jQuery("#location").bind('change', function() {
+            jQuery('#delivery_date, #delivery_time').val('');
+        });
+    });
+    function createCalendar() {
+        var delays = <?php echo json_encode($this->getDelays()); ?>;
+        currentQty = parseInt(jQuery('#qty').val());
+        var delay = 0;
+        for (i = 0; i < delays.length; i++) {
+            if (currentQty >= parseInt(delays[i].from) && currentQty <= parseInt(delays[i].to)) {
+                delay = delays[i].delay;
+            }
+        }
+        jQuery("#delivery_date").datepicker({
+            minDate: '+' + delay,
+            maxDate: "+2M",
+            showOn: "both",
+            buttonImage: "<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN) . 'adminhtml/default/default/images/grid-cal.gif'; ?>",
+            beforeShowDay: function(date) {
+                var day = date.getDay();
+                return [((day != 0) && (day != 6)), ''];
+            }
+        });
+        createTime();
+    }
+    function createTime() {
+        var select = jQuery('#delivery_time');
+        select.html('');
+        select.append(jQuery('<option value=""></option>'));
+        var hours, minutes, ampm, start;
+        var start = 540;
+        if (jQuery('#delivery_date').val() == '' || jQuery('#delivery_date').val() == '<?php echo date("m/d/Y"); ?>') {
+            start = <?php print_r($this->getTime()); ?>;
+        }
+        var step = 15;
+        if (jQuery('#pickup-delivery').val() == 'delivery') {
+            var step = 60;
+        }
+        for (var i = parseInt(start); i <= 1080; i += step) {
+            hours = Math.floor(i / 60);
+            minutes = i % 60;
+            if (minutes < 10) {
+                minutes = '0' + minutes; // adding leading zero
+            }
+            ampm = hours % 24 < 12 ? 'AM' : 'PM';
+            hours = hours % 12;
+            if (hours === 0) {
+                hours = 12;
+            }
+            select.append(jQuery('<option></option>')
+                    .attr('value', hours + ':' + minutes + ' ' + ampm)
+                    .text(hours + ':' + minutes + ' ' + ampm));
+        }
+    }
+</script>
+<style>
+
+</style>

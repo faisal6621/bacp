@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <checkout_cart_index>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/os-cart.css</stylesheet>
+            </action>
+        </reference>
+        <!--<remove name="checkout.cart.crosssell"/>-->
+        <!--
+        <reference name="checkout.cart.crosssell">
+            <action method="setTemplate">
+                <template>ordersuccesspage/checkout/cart/crosssell.phtml</template>
+            </action>
+        </reference>-->
+        <reference name="checkout.cart">
+            <block type="ordersuccesspage/checkout_cart_crosssell" name="checkout.cart.crosssell" as="crosssell" template="ordersuccesspage/checkout/cart/crosssell.phtml"></block>
+            <!--
+            <block type="ordersuccesspage/checkout_cart_related" name="checkout.cart.related" as="related" template="ordersuccesspage/checkout/cart/related.phtml">
+                <action method="setColumnCount">
+                    <columns>4</columns>
+                </action>
+                <action method="setItemLimit">
+                    <type>related</type>
+                    <limit>8</limit>
+                </action>
+            </block>-->
+            <block type="ordersuccesspage/checkout_cart_productsBlock" name="cart_products_block" template="ordersuccesspage/checkout/cart/productsBlock.phtml" />
+        </reference>
+    </checkout_cart_index>
+    <checkout_onepage_success>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/ordersuccesspage.css</stylesheet>
+            </action>
+        </reference>
+    </checkout_onepage_success>
+</layout>

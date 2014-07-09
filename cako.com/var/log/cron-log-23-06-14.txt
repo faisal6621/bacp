@@ -1,0 +1,100 @@
+2014-06-23T10:15:38+00:00 DEBUG (7): core_clean_cache   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): core_clean_cache   +++   30 2 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): currency_rates_update   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): currency_rates_update   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): catalog_product_index_price_reindex_all   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): catalog_product_index_price_reindex_all   +++   0 2 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): catalogrule_apply_all   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): catalogrule_apply_all   +++   0 1 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): sales_clean_quotes   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): sales_clean_quotes   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_order_data   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_order_data   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_shipment_data   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_shipment_data   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_invoiced_data   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_invoiced_data   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_refunded_data   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_refunded_data   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_bestsellers_data   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_bestsellers_data   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_coupons_data   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_coupons_data   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): system_backup   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): system_backup   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): log_clean   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): log_clean   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): paypal_fetch_settlement_reports   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): paypal_fetch_settlement_reports   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_tax_data   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aggregate_sales_report_tax_data   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): sitemap_generate   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): sitemap_generate   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): catalog_product_alert   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): catalog_product_alert   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): captcha_delete_old_attempts   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): captcha_delete_old_attempts   +++   */30 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): captcha_delete_expired_images   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): captcha_delete_expired_images   +++   */10 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): newsletter_send_all   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): newsletter_send_all   +++   */5 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): persistent_clear_expired   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): persistent_clear_expired   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): aw_core_logger_cron   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): aw_core_logger_cron   +++   1 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): rule_apply_all   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): rule_apply_all   +++   * * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): rule_apply_birthday   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): rule_apply_birthday   +++   * * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): freecake   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): freecake   +++   0 1 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): ebizmarts_abandoned_cart   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): ebizmarts_abandoned_cart   +++   0 */1 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): magemonkey_bulksync_export_subscribers   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): magemonkey_bulksync_export_subscribers   +++   0 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): magemonkey_bulksync_import_subscribers   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): magemonkey_bulksync_import_subscribers   +++   0 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): evlikeanalytics_get_stats   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): evlikeanalytics_get_stats   +++   0 1 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): customercron_export_list_fusion   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): customercron_export_list_fusion   +++   1 0 1 * *
+2014-06-23T10:15:38+00:00 DEBUG (7): cronjob_schedule   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): cronjob_schedule   +++   0 */1 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): sendreminders   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): sendreminders   +++   */5 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): rewards_checkpointsexpiry   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): rewards_checkpointsexpiry   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): rewards_checkpointsprobation   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): rewards_checkpointsprobation   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): rewards_checkcustomerbirthdays   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): rewards_checkcustomerbirthdays   +++   0 12 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): rewards_cfu   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): rewards_cfu   +++   0 8 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): rewardsinstore_emailcustomers   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): rewardsinstore_emailcustomers   +++   */5 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): testsweet_cron   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): testsweet_cron   +++   */5 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): xmlconnect_notification_send_all   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): xmlconnect_notification_send_all   +++   */5 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): udropship_collect_tracking   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): udropship_collect_tracking   +++   */5 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): udropship_vendor_notify_lowstock   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): udropship_vendor_notify_lowstock   +++   */5 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): udropship_vendor_clean_lowstock   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): udropship_vendor_clean_lowstock   +++   */5 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): udvacation_process   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): udvacation_process   +++   0 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): udprod_notify_pending   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): udprod_notify_pending   +++   */30 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): udprod_notify_approved   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): udprod_notify_approved   +++   */30 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): udprod_notify_fix   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): udprod_notify_fix   +++   */30 * * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): catalog_product_alert   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): catalog_product_alert   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): log_clean   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): log_clean   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): sitemap_generate   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): sitemap_generate   +++   0 0 * * *
+2014-06-23T10:15:38+00:00 DEBUG (7): currency_rates_update   +++   
+2014-06-23T10:15:38+00:00 DEBUG (7): currency_rates_update   +++   0 0 * * *

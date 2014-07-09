@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Excellence_ShippingReport>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Excellence_ShippingReport>
+    </modules>
+</config>

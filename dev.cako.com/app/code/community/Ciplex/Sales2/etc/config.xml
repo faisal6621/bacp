@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ciplex_Sales2>
+            <version>0.1.0</version>
+        </Ciplex_Sales2>
+    </modules>
+    <global>
+        <helpers>
+            <sales2>
+                <class>Ciplex_Sales2_Helper</class>
+            </sales2>
+        </helpers>
+        <blocks>
+            <sales2>
+                <class>Ciplex_Sales2_Block</class>
+            </sales2>
+        </blocks>
+        <models>
+            <sales2>
+                <class>Ciplex_Sales2_Model</class>
+                <resourceModel>sales2_mysql4</resourceModel>
+            </sales2>
+            <sales2_mysql4>
+                <class>Ciplex_Sales2_Model_Mysql4</class>
+                <entities>
+                    <sales2>
+                        <table>orders_additional</table>
+                    </sales2>
+                </entities>
+            </sales2_mysql4>
+        </models>
+        <resources>
+            <sales2_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </sales2_write>
+            <sales2_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </sales2_read>
+        </resources>
+        <events>
+            <checkout_submit_all_after>
+                <observers>
+                    <sales2>
+                        <type>singleton</type>
+                        <class>sales2/observer</class>
+                        <method>handleOrderCreated</method>
+                    </sales2>
+                </observers>
+            </checkout_submit_all_after>
+        </events>
+    </global>
+    <admin>
+        <routers>
+            <sales2>
+                <use>admin</use>
+                <args>
+                    <module>Ciplex_Sales2</module>
+                    <frontName>sales2</frontName>
+                </args>
+            </sales2>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <sales>
+                <children>
+                    <sales2backend module="sales2">
+                        <title>Stores View</title>
+                        <sort_order>0</sort_order>
+                        <action>sales2/adminhtml_sales2</action>
+                    </sales2backend>
+                    <sales3backend module="sales2">
+                        <title>Delivery View</title>
+                        <sort_order>0</sort_order>
+                        <action>sales2/adminhtml_sales3</action>
+                    </sales3backend>
+                </children>
+            </sales>
+        </menu>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <sales>
+                            <children>
+                                <sales2backend translate="title">
+                                    <title>Stores View (orders2)</title>
+                                </sales2backend>
+                                <sales3backend translate="title">
+                                    <title>Delivery View (orders3)</title>
+                                </sales3backend>
+                            </children>
+                        </sales>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <sales2>
+                    <file>sales2.xml</file>
+                </sales2>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

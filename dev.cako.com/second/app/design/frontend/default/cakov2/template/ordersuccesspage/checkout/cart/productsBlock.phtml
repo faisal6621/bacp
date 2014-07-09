@@ -1,0 +1,32 @@
+<?php if ($this->hasBlocks()): ?>
+    <?php foreach ($this->getBlocks() as $block): ?>
+        <?php $productIds = explode(',', $block->getProductIds()) ?>
+        <?php $products = array() ?>
+        <?php
+        foreach ($productIds as $id) {
+            $prod = Mage::getModel('catalog/product')->load($id);
+            if ($prod->getId()) {
+                $products[] = $prod;
+            }
+        }
+        ?>
+        <?php if (count($products)): ?>
+            <div class="products-block">
+                <h3><?php echo $this->__($block->getTitle()); ?></h3>
+                <ul class="products">
+                    <?php foreach ($products as $product): ?>
+                        <li class="product">
+                            <a href="<?php echo $product->getProductUrl(); ?>">
+                                <img src="<?php echo $this->helper('catalog/image')->init($product, 'thumbnail')->resize(120); ?>"
+                                     alt="<?php echo $this->htmlEscape($product->getName()) ?>"
+                                     title="<?php echo $this->htmlEscape($product->getName()) ?>"
+                                     width="120" height="120" />
+                            </a>
+                            <h4><?php echo $this->escapeHtml($product->getName()); ?></h4>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+    <?php endforeach; ?>
+<?php endif; ?>

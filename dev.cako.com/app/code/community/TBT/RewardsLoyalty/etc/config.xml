@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <TBT_RewardsLoyalty>
+            <version>0.2.0.0</version>
+        </TBT_RewardsLoyalty>
+    </modules>
+    
+    <frontend>
+        <routers>
+            <rewardsloyalty>
+                <use>standard</use>
+                <args>
+                    <module>TBT_RewardsLoyalty</module>
+                    <frontName>rewardsloyalty</frontName>
+                </args>
+            </rewardsloyalty>
+        </routers>
+        <secure_url>
+            <rewardsloyalty>/rewardsloyalty/</rewardsloyalty>
+        </secure_url>
+    </frontend>
+    
+    <global>
+        <blocks>
+            <rewardsloyalty>
+                <class>TBT_RewardsLoyalty_Block</class>
+            </rewardsloyalty>
+        </blocks>
+        <helpers>
+            <rewardsloyalty>
+                <class>TBT_RewardsLoyalty_Helper</class>
+            </rewardsloyalty>
+        </helpers>
+        <models>
+            <rewardsloyalty>
+                <class>TBT_RewardsLoyalty_Model</class>
+            </rewardsloyalty>
+        </models>
+    </global>
+    
+    <tbtcommon>
+        <loyalty>
+            <rewards>
+                <module>rewardsloyalty</module>
+                <helper>loyalty</helper>
+            </rewards>
+        </loyalty>
+    </tbtcommon>
+</config>

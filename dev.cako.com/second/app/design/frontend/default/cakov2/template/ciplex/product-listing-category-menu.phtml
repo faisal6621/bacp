@@ -1,0 +1,75 @@
+<?php
+$cc = Mage::registry('current_category');
+$ourSelection = Mage::getModel('catalog/category')->load(100);
+$topCats = Mage::getModel('catalog/category')->getCollection()
+        ->addAttributeToSelect(array('name', 'url_path'))
+        ->addAttributeToFilter('parent_id', $cc->getParentCategory()->getId())
+        ->addAttributeToFilter('is_active', 1)
+        ->addAttributeToFilter('include_in_menu', 1)
+        ->setOrder('position', 'asc');
+if (!$cc) {
+    $ccId = 0;
+    $ccPaths = array();
+} else {
+    $ccId = $cc->getEntityId();
+    $ccPaths = $cc->getPathIds();
+}
+?>
+<div class="block block-cat-nav">
+    <div class="block-title">
+        <strong><span><?php echo $cc->getParentCategory()->getName(); ?></span></strong>
+    </div>
+    <div class="block-content">
+        <ul id="left-cat-list">
+            <?php foreach ($topCats as $topCat) { ?>
+                <li class="main-cat <?php echo ($topCat->getEntityId() == $ccId || in_array($topCat->getEntityId(), $ccPaths)) ? "current on" : ""; ?>">
+                    <a href="<?php echo $this->getUrl($topCat->getUrlPath()); ?>"><span><?php echo $topCat->getName(); ?></span></a>
+                    <?php
+                    $subCats = Mage::getModel('catalog/category')->getCollection()
+                            ->addAttributeToSelect(array('name', 'url_path'))
+                            ->addAttributeToFilter('parent_id', $topCat->getEntityId())
+                            ->addAttributeToFilter('is_active', 1)
+                            ->addAttributeToFilter('include_in_menu', 1)
+                            ->setOrder('position', 'asc');
+                    if ($subCats->count()) {
+                        ?>
+                        <ul <?php echo ($topCat->getEntityId() == $ccId || in_array($topCat->getEntityId(), $ccPaths)) ? "class='current'" : ""; ?>>
+                            <?php
+                            /*
+                              if ($topCat->getEntityId() == $ccId || in_array($topCat->getEntityId(), $ccPaths)) {
+                              ?><ul class="current"><?php
+                              } else {
+                              ?><ul><?php
+                              }
+                             */
+                            ?>
+                            <?php foreach ($subCats as $subCat) { ?>
+                                <li><a href="<?php echo $this->getUrl($subCat->getUrlPath()); ?>"><span><?php echo $subCat->getName(); ?></span></a></li>
+                            <?php } ?>
+                        </ul>
+                    <?php } ?>
+                </li>
+            <?php } ?>
+        </ul>
+        <script type="text/javascript">decorateDataList('left-cat-list')</script>
+    </div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    jQuery(document).ready(function() {
+        jQuery('.main-cat > a').click(function(evt) {
+            jQuery('.main-cat').removeClass('on');
+            jQuery('.main-cat ul').slideUp('normal');
+            if (jQuery(this).next().is(':hidden') === true) {
+                jQuery(this).parent('li').addClass('on');
+                jQuery(this).next().slideDown('normal');
+                evt.preventDefault();
+            }
+        });
+        jQuery('.block-title').click(function(evt) {
+            jQuery('.block-title').next().toggle('slow');
+            jQuery('.block-title').toggleClass('closed');
+        });
+    });
+    //]]>
+</script>

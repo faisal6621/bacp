@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Excellence_TipOrders>
+            <version>0.1.0</version>
+        </Excellence_TipOrders>
+    </modules>
+    <global>
+        <blocks>
+            <tiporders>
+                <class>Excellence_TipOrders_Block</class>
+            </tiporders>
+        </blocks>
+        <helpers>
+            <tiporders>
+                <class>Excellence_TipOrders_Helper</class>
+            </tiporders>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <tiporders>
+                <use>admin</use>
+                <args>
+                    <module>Excellence_TipOrders</module>
+                    <frontName>tiporders</frontName>
+                </args>
+            </tiporders>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <report>
+                <children>
+                    <tiporders module="tiporders" translate="title">
+                        <title>Orders with Service Charge</title>
+                        <sort_order>15</sort_order>
+                        <action>tiporders/adminhtml_orders</action>
+                    </tiporders>
+                </children>
+            </report>
+        </menu>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <report>
+                            <children>
+                                <tiporders module="tiporders" translate="title">
+                                    <title>Orders with Service Charge</title>
+                                    <sort_order>15</sort_order>
+                                </tiporders>
+                            </children>
+                        </report>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>

@@ -1,0 +1,476 @@
+2014-06-24T12:40:32+00:00 DEBUG (7): Excellence_Ordersuccesspage_Block_Adminhtml_CartProducts_Edit_Tab_Products Object
+(
+    [_columns:protected] => Array
+        (
+        )
+
+    [_lastColumnId:protected] => 
+    [_collection:protected] => 
+    [_varNameLimit:protected] => limit
+    [_varNamePage:protected] => page
+    [_varNameSort:protected] => sort
+    [_varNameDir:protected] => dir
+    [_varNameFilter:protected] => filter
+    [_defaultLimit:protected] => 20
+    [_defaultPage:protected] => 1
+    [_defaultSort:protected] => entity_id
+    [_defaultDir:protected] => ASC
+    [_defaultFilter:protected] => Array
+        (
+            [in_products] => 1
+        )
+
+    [_isExport:protected] => 
+    [_emptyText:protected] => No records found.
+    [_emptyTextCss:protected] => a-center
+    [_pagerVisibility:protected] => 1
+    [_headersVisibility:protected] => 1
+    [_filterVisibility:protected] => 1
+    [_messageBlockVisibility:protected] => 
+    [_saveParametersInSession:protected] => 
+    [_countTotals:protected] => 
+    [_countSubTotals:protected] => 
+    [_varTotals:protected] => 
+    [_subtotals:protected] => Array
+        (
+        )
+
+    [_exportTypes:protected] => Array
+        (
+        )
+
+    [_exportPageSize:protected] => 1000
+    [_massactionIdField:protected] => 
+    [_massactionIdFilter:protected] => 
+    [_massactionBlockName:protected] => adminhtml/widget_grid_massaction
+    [_rssLists:protected] => Array
+        (
+        )
+
+    [_columnsOrder:protected] => Array
+        (
+        )
+
+    [_groupedColumn:protected] => Array
+        (
+        )
+
+    [_emptyCellLabel:protected] => 
+    [_viewDir:protected] => 
+    [_viewVars:protected] => Array
+        (
+        )
+
+    [_baseUrl:protected] => 
+    [_jsUrl:protected] => 
+    [_allowSymlinks:protected] => 
+    [_template:protected] => widget/grid.phtml
+    [_nameInLayout:protected] => 
+    [_layout:protected] => 
+    [_parent:protected] => 
+    [_alias:protected] => 
+    [_anonSuffix:protected] => 
+    [_children:protected] => Array
+        (
+        )
+
+    [_sortedChildren:protected] => Array
+        (
+        )
+
+    [_childrenHtmlCache:protected] => Array
+        (
+        )
+
+    [_childGroups:protected] => Array
+        (
+        )
+
+    [_request:protected] => 
+    [_messagesBlock:protected] => 
+    [_isAnonymous:protected] => 
+    [_parentBlock:protected] => 
+    [_frameOpenTag:protected] => 
+    [_frameCloseTag:protected] => 
+    [_sortInstructions:protected] => Array
+        (
+        )
+
+    [_data:protected] => Array
+        (
+            [row_click_callback] => openGridRow
+            [id] => products_grid
+            [use_ajax] => 1
+        )
+
+    [_hasDataChanges:protected] => 1
+    [_origData:protected] => 
+    [_idFieldName:protected] => 
+    [_isDeleted:protected] => 
+    [_oldFieldsMap:protected] => Array
+        (
+        )
+
+    [_syncFieldsMap:protected] => Array
+        (
+        )
+
+)
+
+2014-06-24T12:40:36+00:00 DEBUG (7): Excellence_Ordersuccesspage_Block_Adminhtml_CartProducts_Edit_Tab_Products Object
+(
+    [_columns:protected] => Array
+        (
+        )
+
+    [_lastColumnId:protected] => 
+    [_collection:protected] => 
+    [_varNameLimit:protected] => limit
+    [_varNamePage:protected] => page
+    [_varNameSort:protected] => sort
+    [_varNameDir:protected] => dir
+    [_varNameFilter:protected] => filter
+    [_defaultLimit:protected] => 20
+    [_defaultPage:protected] => 1
+    [_defaultSort:protected] => entity_id
+    [_defaultDir:protected] => ASC
+    [_defaultFilter:protected] => Array
+        (
+            [in_products] => 1
+        )
+
+    [_isExport:protected] => 
+    [_emptyText:protected] => No records found.
+    [_emptyTextCss:protected] => a-center
+    [_pagerVisibility:protected] => 1
+    [_headersVisibility:protected] => 1
+    [_filterVisibility:protected] => 1
+    [_messageBlockVisibility:protected] => 
+    [_saveParametersInSession:protected] => 
+    [_countTotals:protected] => 
+    [_countSubTotals:protected] => 
+    [_varTotals:protected] => 
+    [_subtotals:protected] => Array
+        (
+        )
+
+    [_exportTypes:protected] => Array
+        (
+        )
+
+    [_exportPageSize:protected] => 1000
+    [_massactionIdField:protected] => 
+    [_massactionIdFilter:protected] => 
+    [_massactionBlockName:protected] => adminhtml/widget_grid_massaction
+    [_rssLists:protected] => Array
+        (
+        )
+
+    [_columnsOrder:protected] => Array
+        (
+        )
+
+    [_groupedColumn:protected] => Array
+        (
+        )
+
+    [_emptyCellLabel:protected] => 
+    [_viewDir:protected] => 
+    [_viewVars:protected] => Array
+        (
+        )
+
+    [_baseUrl:protected] => 
+    [_jsUrl:protected] => 
+    [_allowSymlinks:protected] => 
+    [_template:protected] => widget/grid.phtml
+    [_nameInLayout:protected] => 
+    [_layout:protected] => 
+    [_parent:protected] => 
+    [_alias:protected] => 
+    [_anonSuffix:protected] => 
+    [_children:protected] => Array
+        (
+        )
+
+    [_sortedChildren:protected] => Array
+        (
+        )
+
+    [_childrenHtmlCache:protected] => Array
+        (
+        )
+
+    [_childGroups:protected] => Array
+        (
+        )
+
+    [_request:protected] => 
+    [_messagesBlock:protected] => 
+    [_isAnonymous:protected] => 
+    [_parentBlock:protected] => 
+    [_frameOpenTag:protected] => 
+    [_frameCloseTag:protected] => 
+    [_sortInstructions:protected] => Array
+        (
+        )
+
+    [_data:protected] => Array
+        (
+            [row_click_callback] => openGridRow
+            [id] => products_grid
+            [use_ajax] => 1
+        )
+
+    [_hasDataChanges:protected] => 1
+    [_origData:protected] => 
+    [_idFieldName:protected] => 
+    [_isDeleted:protected] => 
+    [_oldFieldsMap:protected] => Array
+        (
+        )
+
+    [_syncFieldsMap:protected] => Array
+        (
+        )
+
+)
+
+2014-06-24T12:43:35+00:00 DEBUG (7): Excellence_Ordersuccesspage_Block_Adminhtml_CartProducts_Edit_Tab_Products Object
+(
+    [_columns:protected] => Array
+        (
+        )
+
+    [_lastColumnId:protected] => 
+    [_collection:protected] => 
+    [_varNameLimit:protected] => limit
+    [_varNamePage:protected] => page
+    [_varNameSort:protected] => sort
+    [_varNameDir:protected] => dir
+    [_varNameFilter:protected] => filter
+    [_defaultLimit:protected] => 20
+    [_defaultPage:protected] => 1
+    [_defaultSort:protected] => entity_id
+    [_defaultDir:protected] => ASC
+    [_defaultFilter:protected] => Array
+        (
+            [in_products] => 1
+        )
+
+    [_isExport:protected] => 
+    [_emptyText:protected] => No records found.
+    [_emptyTextCss:protected] => a-center
+    [_pagerVisibility:protected] => 1
+    [_headersVisibility:protected] => 1
+    [_filterVisibility:protected] => 1
+    [_messageBlockVisibility:protected] => 
+    [_saveParametersInSession:protected] => 
+    [_countTotals:protected] => 
+    [_countSubTotals:protected] => 
+    [_varTotals:protected] => 
+    [_subtotals:protected] => Array
+        (
+        )
+
+    [_exportTypes:protected] => Array
+        (
+        )
+
+    [_exportPageSize:protected] => 1000
+    [_massactionIdField:protected] => 
+    [_massactionIdFilter:protected] => 
+    [_massactionBlockName:protected] => adminhtml/widget_grid_massaction
+    [_rssLists:protected] => Array
+        (
+        )
+
+    [_columnsOrder:protected] => Array
+        (
+        )
+
+    [_groupedColumn:protected] => Array
+        (
+        )
+
+    [_emptyCellLabel:protected] => 
+    [_viewDir:protected] => 
+    [_viewVars:protected] => Array
+        (
+        )
+
+    [_baseUrl:protected] => 
+    [_jsUrl:protected] => 
+    [_allowSymlinks:protected] => 
+    [_template:protected] => widget/grid.phtml
+    [_nameInLayout:protected] => 
+    [_layout:protected] => 
+    [_parent:protected] => 
+    [_alias:protected] => 
+    [_anonSuffix:protected] => 
+    [_children:protected] => Array
+        (
+        )
+
+    [_sortedChildren:protected] => Array
+        (
+        )
+
+    [_childrenHtmlCache:protected] => Array
+        (
+        )
+
+    [_childGroups:protected] => Array
+        (
+        )
+
+    [_request:protected] => 
+    [_messagesBlock:protected] => 
+    [_isAnonymous:protected] => 
+    [_parentBlock:protected] => 
+    [_frameOpenTag:protected] => 
+    [_frameCloseTag:protected] => 
+    [_sortInstructions:protected] => Array
+        (
+        )
+
+    [_data:protected] => Array
+        (
+            [row_click_callback] => openGridRow
+            [id] => products_grid
+            [use_ajax] => 1
+        )
+
+    [_hasDataChanges:protected] => 1
+    [_origData:protected] => 
+    [_idFieldName:protected] => 
+    [_isDeleted:protected] => 
+    [_oldFieldsMap:protected] => Array
+        (
+        )
+
+    [_syncFieldsMap:protected] => Array
+        (
+        )
+
+)
+
+2014-06-24T12:46:55+00:00 DEBUG (7): Excellence_Ordersuccesspage_Block_Adminhtml_CartProducts_Edit_Tab_Products Object
+(
+    [_columns:protected] => Array
+        (
+        )
+
+    [_lastColumnId:protected] => 
+    [_collection:protected] => 
+    [_varNameLimit:protected] => limit
+    [_varNamePage:protected] => page
+    [_varNameSort:protected] => sort
+    [_varNameDir:protected] => dir
+    [_varNameFilter:protected] => filter
+    [_defaultLimit:protected] => 20
+    [_defaultPage:protected] => 1
+    [_defaultSort:protected] => entity_id
+    [_defaultDir:protected] => ASC
+    [_defaultFilter:protected] => Array
+        (
+            [in_products] => 1
+        )
+
+    [_isExport:protected] => 
+    [_emptyText:protected] => No records found.
+    [_emptyTextCss:protected] => a-center
+    [_pagerVisibility:protected] => 1
+    [_headersVisibility:protected] => 1
+    [_filterVisibility:protected] => 1
+    [_messageBlockVisibility:protected] => 
+    [_saveParametersInSession:protected] => 
+    [_countTotals:protected] => 
+    [_countSubTotals:protected] => 
+    [_varTotals:protected] => 
+    [_subtotals:protected] => Array
+        (
+        )
+
+    [_exportTypes:protected] => Array
+        (
+        )
+
+    [_exportPageSize:protected] => 1000
+    [_massactionIdField:protected] => 
+    [_massactionIdFilter:protected] => 
+    [_massactionBlockName:protected] => adminhtml/widget_grid_massaction
+    [_rssLists:protected] => Array
+        (
+        )
+
+    [_columnsOrder:protected] => Array
+        (
+        )
+
+    [_groupedColumn:protected] => Array
+        (
+        )
+
+    [_emptyCellLabel:protected] => 
+    [_viewDir:protected] => 
+    [_viewVars:protected] => Array
+        (
+        )
+
+    [_baseUrl:protected] => 
+    [_jsUrl:protected] => 
+    [_allowSymlinks:protected] => 
+    [_template:protected] => widget/grid.phtml
+    [_nameInLayout:protected] => 
+    [_layout:protected] => 
+    [_parent:protected] => 
+    [_alias:protected] => 
+    [_anonSuffix:protected] => 
+    [_children:protected] => Array
+        (
+        )
+
+    [_sortedChildren:protected] => Array
+        (
+        )
+
+    [_childrenHtmlCache:protected] => Array
+        (
+        )
+
+    [_childGroups:protected] => Array
+        (
+        )
+
+    [_request:protected] => 
+    [_messagesBlock:protected] => 
+    [_isAnonymous:protected] => 
+    [_parentBlock:protected] => 
+    [_frameOpenTag:protected] => 
+    [_frameCloseTag:protected] => 
+    [_sortInstructions:protected] => Array
+        (
+        )
+
+    [_data:protected] => Array
+        (
+            [row_click_callback] => openGridRow
+            [id] => products_grid
+            [use_ajax] => 1
+        )
+
+    [_hasDataChanges:protected] => 1
+    [_origData:protected] => 
+    [_idFieldName:protected] => 
+    [_isDeleted:protected] => 
+    [_oldFieldsMap:protected] => Array
+        (
+        )
+
+    [_syncFieldsMap:protected] => Array
+        (
+        )
+
+)
+

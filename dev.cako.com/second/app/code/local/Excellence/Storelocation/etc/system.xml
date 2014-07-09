@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <hero translate="label" module="storelocation">
+            <label>Store Locations Hero Component</label>
+            <tab>general</tab>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <hero_group translate="label" module="storelocation">
+                    <label>Hero settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <hero_input1 translate="label">
+                            <label>Banner Title: </label>
+                            <validate>required-entry</validate>
+                            <comment>e.g Our Locations </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </hero_input1>
+                       <hero_input2 translate="label">
+                            <label>Subtitle: </label>
+                            <validate>required-entry</validate>
+                            <comment>Required</comment>
+                           <frontend_model>storelocation/adminhtml_system_config_editor</frontend_model>
+                            <frontend_type>editor</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </hero_input2>
+                        <hero_input3 translate="label">
+                            <label>Product Title </label>
+                            <comment>Optional</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </hero_input3>
+                        <hero_input4 translate="label">
+                            <label>Product Url </label>
+                            <comment>Optional</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </hero_input4>
+                        <hero_input5 translate="label comment">
+							<label>Banner</label>
+							<validate>required-entry</validate>
+							<comment>Allowed file types: jpeg, gif, png.</comment>
+							<frontend_type>image</frontend_type>
+							<backend_model>adminhtml/system_config_backend_image</backend_model>
+							<upload_dir config="system/filesystem/media" scope_info="1">theme</upload_dir>
+							<base_url type="media" scope_info="1">theme</base_url>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</hero_input5>
+						<seo_input1 translate="label">
+                            <label>Browser Page Title </label>
+                            <comment>e.g Store Locations </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </seo_input1>
+                       <seo_input2 translate="label">
+                            <label>Meta Description </label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>6</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </seo_input2>
+                        <seo_input3 translate="label">
+                            <label>Meta Keywords</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </seo_input3>
+                    </fields>
+                </hero_group>
+            </groups>
+        </hero>
+    </sections>
+</config>

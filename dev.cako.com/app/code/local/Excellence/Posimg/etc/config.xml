@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Excellence_Posimg>
+            <version>0.1.0</version>
+        </Excellence_Posimg>
+    </modules>
+    <frontend>
+        <routers>
+            <posimg>
+                <use>standard</use>
+                <args>
+                    <module>Excellence_Posimg</module>
+                    <frontName>posimg</frontName>
+                </args>
+            </posimg>
+        </routers>
+        <layout>
+            <updates>
+                <posimg>
+                    <file>posimg.xml</file>
+                </posimg>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+            <posimg>
+                <use>admin</use>
+                <args>
+                    <module>Excellence_Posimg</module>
+                    <frontName>posimg</frontName>
+                </args>
+            </posimg>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <posimg module="posimg">
+                <title>POS Support</title>
+                <sort_order>71</sort_order>
+                <children>
+                    <items module="posimg">
+                        <title>POS Image Creation</title>
+                        <sort_order>0</sort_order>
+                        <action>posimg/adminhtml_posimg/new</action>
+                    </items>
+                    <!--
+                    <customer_list module="posimg">
+                        <title>Customer List</title>
+                        <sort_order>10</sort_order>
+                        <action>posimg/adminhtml_posimg/customerList</action>
+                    </customer_list>-->
+                </children>
+            </posimg>
+        </menu>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <!--
+                        <Excellence_Posimg>
+                            <title>Posimg Module</title>
+                            <sort_order>10</sort_order>
+                        </Excellence_Posimg>-->
+                        <posimg translate="title" module="posimg">
+                            <title>POS Support</title>
+                            <sort_order>150</sort_order>
+                            <children>
+                                <items translate="title" module="posimg">
+                                    <title>POS Image Creation</title>
+                                    <sort_order>10</sort_order>
+                                </items>
+                            </children>
+                        </posimg>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <posimg>
+                    <file>posimg.xml</file>
+                </posimg>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <models>
+            <posimg>
+                <class>Excellence_Posimg_Model</class>
+                <resourceModel>posimg_mysql4</resourceModel>
+            </posimg>
+            <posimg_mysql4>
+                <class>Excellence_Posimg_Model_Mysql4</class>
+                <entities>
+                    <posimg>
+                        <table>posimg</table>
+                    </posimg>
+                </entities>
+            </posimg_mysql4>
+        </models>
+        <resources>
+            <posimg_setup>
+                <setup>
+                    <module>Excellence_Posimg</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </posimg_setup>
+            <posimg_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </posimg_write>
+            <posimg_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </posimg_read>
+        </resources>
+        <blocks>
+            <posimg>
+                <class>Excellence_Posimg_Block</class>
+            </posimg>
+        </blocks>
+        <helpers>
+            <posimg>
+                <class>Excellence_Posimg_Helper</class>
+            </posimg>
+        </helpers>
+    </global>
+</config>

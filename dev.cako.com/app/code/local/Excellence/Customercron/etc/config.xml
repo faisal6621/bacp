@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Excellence_Customercron>
+            <version>0.1.0</version>
+        </Excellence_Customercron>
+    </modules>
+    <global>
+        <models>
+            <customercron>
+                <class>Excellence_Customercron_Model</class>
+            </customercron>
+        </models>
+    </global>
+
+    <crontab>
+        <jobs>
+            <customercron>
+                <schedule>
+                    <cron_expr>1 0 1 * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>customercron/customercron::exportCustomerList</model>
+                </run>
+            </customercron>
+        </jobs>
+    </crontab>
+</config>

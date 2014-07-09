@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <storelocation_adminhtml_storelocation_index>
+        <reference name="content">
+            <block type="storelocation/adminhtml_storelocation" name="storelocation" />
+        </reference>
+    </storelocation_adminhtml_storelocation_index>
+    <adminhtml_system_config_edit>
+        <update handle="editor" />
+        <reference name="head">
+            <action method="setCanLoadTinyMce">
+                <load>1</load>
+            </action>
+        </reference>
+    </adminhtml_system_config_edit>
+    <storelocation_adminhtml_featuredproduct_index>
+        <reference name="content">
+            <block type="storelocation/adminhtml_featuredproduct" name="fproduct" />
+        </reference>
+    </storelocation_adminhtml_featuredproduct_index>
+    <storelocation_adminhtml_storelocation_products>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="storelocation/adminhtml_storelocation_edit_tab_grid" name="products.grid"/>
+            <block type="adminhtml/widget_grid_serializer" name="products_grid_serializer">
+                <reference name="products_grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>products.grid</grid_block_name>
+                        <data_callback>getSelectedProducts</data_callback>
+                        <hidden_input_name>links[prodlist]</hidden_input_name>
+                        <reload_param_name>products_prodlist</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </storelocation_adminhtml_storelocation_products>
+    <storelocation_adminhtml_storelocation_productsgrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="test/adminhtml_test_edit_tab_grid" name="customer.grid"/>
+        </block>
+    </storelocation_adminhtml_storelocation_productsgrid>
+</layout>

@@ -1,0 +1,76 @@
+<!--<div id="cblocks">-->
+<!--<div class="content">-->
+<div class="left">
+    <?php if ($this->hasBlocks()): ?>
+        <?php $blocks = $this->getBlocks() ?>
+        <?php foreach ($blocks as $block) : ?>
+            <div class="block">
+                <h3><?php echo $this->__($block->getTitle()); ?> <img src="<?php echo $this->getSkinUrl('images/down-arr-cbl.png'); ?>" alt="&nbsp;" /></h3>
+                <ul>
+                    <?php $links = $this->getLinks($block) ?>
+                    <?php foreach ($links as $url => $label) : ?>
+                        <?php if (!$label) continue; ?>
+                        <li>
+                            <a href="<?php echo $url; ?>" title="<?php echo $label; ?>"><?php echo $this->escapeHtml($this->__($label)); ?></a>
+                        </li>
+                    <?php endforeach; ?>
+                    <?php $customLinks = $this->getBlockLinks($block->getId()) ?>
+                    <?php foreach ($customLinks as $url => $label): ?>
+                        <li>
+                            <a href="<?php echo $url; ?>" title="<?php echo $label; ?>"><?php echo $this->escapeHtml($this->__($label)); ?></a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endforeach; ?>
+    <?php endif; ?>
+    <?php if ($this->hasImages()): ?>
+        <?php foreach ($this->getImages() as $image) : ?>
+            <a href="<?php echo $image->getLink(); ?>">
+                <img src="<?php echo Mage::getBaseUrl('media') . $image->getImage(); ?>" alt="<?php echo $this->escapeHtml($image->getTitle()); ?>" title="<?php echo $this->escapeHtml($image->getTitle()); ?>" class="img" />
+            </a>
+        <?php endforeach; ?>
+    <?php endif; ?>
+</div>
+<?php /* ?>
+  <div class="right">
+  <h2><?php echo $this->__('Store Pickup'); ?></h2>
+  <p>Pickups are available at all Cako locations.</p>
+  <p>Ice cream products and Silvanas are only available at our Metreon and Valley Fair locations.</p>
+  <p>Orders for store pickup can be made 7 days a week during stores hours.</p>
+
+  <hr/>
+
+  <h2>General Delivery Info</h2>
+  <p>Delivery hours are 7 days a week, 8am to 5pm. Weekend hours are 10am-4pm.</p>
+  <p>At this time, we only deliver in San Francisco and our products are not available for mail order.</p>
+
+  <h3>Stand Rentals</h3>
+  <p>Stand rentals are available for $15. Set up is available for $60.</p>
+  <p>Rental must be paid prior to event and a credit card will be kept on file to ensure proper rental procedures.</p>
+  <p>If the stand(s) are not returned to any of our store locations within a week of the event or returned damaged,
+  the credit card will be charged according to the cost of the stand.</p>
+  <h3>Office Hours</h3>
+  <p>Our office hours are <strong>Monday - Friday, 9am - 6pm.</strong></p>
+  <p>If you have any questions, feel free to contact us by phone at <span class="phone">415-895-2256 (CAKO)</span>
+  or email <span class="email">orders@cako.com</span></p>
+
+  <hr/>
+  </div>
+  <?php */ ?>
+<!--</div>-->
+<!--</div>-->
+<script type="text/javascript">
+    jQuery(window).load(function() {
+        var lh = jQuery('.cms-page-view .main .col-left').outerHeight(true);
+        jQuery('.cms-page-view .main').css('min-height', lh + 50);
+    });
+    jQuery(document).ready(function() {
+        var block = jQuery('.cms-page-view .col-left .left .block');
+        block.on('click', function() {
+            if (screen.width <= 700) {
+                jQuery(this).children('ul').toggle();
+            }
+        });
+    });
+</script>

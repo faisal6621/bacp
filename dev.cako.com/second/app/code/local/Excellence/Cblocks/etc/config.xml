@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Excellence_Cblocks>
+            <version>0.1.5</version>
+        </Excellence_Cblocks>
+    </modules>
+    <global>
+        <blocks>
+            <cblocks>
+                <class>Excellence_Cblocks_Block</class>
+            </cblocks>
+        </blocks>
+        <helpers>
+            <cblocks>
+                <class>Excellence_Cblocks_Helper</class>
+            </cblocks>
+        </helpers>
+        <models>
+            <cblocks>
+                <class>Excellence_Cblocks_Model</class>
+                <resourceModel>cblocks_mysql4</resourceModel>
+            </cblocks>
+            <cblocks_mysql4>
+                <class>Excellence_Cblocks_Model_Mysql4</class>
+                <entities>
+                    <cblocks>
+                        <table>cblocks</table>
+                    </cblocks>
+                    <images>
+                        <table>cblocks_images</table>
+                    </images>
+                    <links>
+                        <table>cblocks_links</table>
+                    </links>
+                </entities>
+            </cblocks_mysql4>
+        </models>
+        <resources>
+            <cblocks_setup>
+                <setup>
+                    <module>Excellence_Cblocks</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </cblocks_setup>
+            <cblocks_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </cblocks_write>
+            <cblocks_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </cblocks_read>
+        </resources>
+    </global>
+    <frontend>
+        <routers>
+            <cblocks>
+                <use>standard</use>
+                <args>
+                    <module>Excellence_Cblocks</module>
+                    <frontName>cblocks</frontName>
+                </args>
+            </cblocks>
+        </routers>
+        <layout>
+            <updates>
+                <cblocks>
+                    <file>cblocks.xml</file>
+                </cblocks>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+            <cblocks>
+                <use>admin</use>
+                <args>
+                    <module>Excellence_Cblocks</module>
+                    <frontName>cblocks</frontName>
+                </args>
+            </cblocks>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <storelocation module="storelocation">
+                <children>
+                    <cblocks module="cblocks" translate="title">
+                        <title>Custom Blocks</title>
+                        <sort_order>85</sort_order>
+                        <children>
+                            <items module="cblocks" translate="title">
+                                <title>Manage Blocks</title>
+                                <sort_order>10</sort_order>
+                                <action>cblocks/adminhtml_cblocks</action>
+                            </items>
+                            <links module="cblocks" translate="title">
+                                <title>Manage Block Links</title>
+                                <sort_order>15</sort_order>
+                                <action>cblocks/adminhtml_links</action>
+                            </links>
+                            <images module="cblocks" translate="title">
+                                <title>Manage Images</title>
+                                <sort_order>20</sort_order>
+                                <action>cblocks/adminhtml_images</action>
+                            </images>
+                        </children>
+                    </cblocks>
+
+                </children>
+            </storelocation>
+
+        </menu>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <cblocks module="cblocks" translate="title">
+                            <title>Custom Blocks</title>
+                            <sort_order>85</sort_order>
+                            <children>
+                                <items module="cblocks" translate="title">
+                                    <title>Manage Blocks</title>
+                                    <sort_order>10</sort_order>
+                                </items>
+                                <links module="cblocks" translate="title">
+                                    <title>Manage Block Links</title>
+                                    <sort_order>15</sort_order>
+                                </links>
+                                <images module="cblocks" translate="title">
+                                    <title>Manage Images</title>
+                                    <sort_order>20</sort_order>
+                                </images>
+                            </children>
+                        </cblocks>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>

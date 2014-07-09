@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <ship_index_index>
+        <reference name="content">
+            <block type="ship/ship" name="ship" template="ship/ship.phtml" />
+        </reference>
+    </ship_index_index>
+    <checkout_onepage_index>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>css/checkout.css</stylesheet>
+            </action>
+        </reference>
+        <!--
+        <remove name="checkout.progress" />
+         <reference name="right">
+          
+            <block type="checkout/cart" name="checkout.right" template="ship/right.phtml">
+            	<block type="checkout/cart_totals" name="checkout.cart.totals" as="totals" template="checkout/cart/totals.phtml"/>
+            	 <block type="checkout/cart_coupon" name="checkout.cart.coupon" as="coupon" template="ship/cart/coupon.phtml"/>
+           		 <block type="rewards/checkout_cart" name="points_cart_minibox" as="cartpoints_spender" template="rewards/checkout/cartmini.phtml" >
+                    <block type="rewards/checkout_cart_slider" name="points_cart_box.slider" as="points_slider" template="rewards/checkout/cart/slider.phtml" />
+                    <block type="core/template" name="points_cart_box.js" as="minicart_js" template="rewards/checkout/minicart_js.phtml" />
+                </block>
+                <block type="checkout/agreements" name="checkout.onepage.agreements" as="agreements" template="checkout/onepage/agreements.phtml"/>
+            <block type="core/template" name="checkout.onepage.review.button" as="button" template="checkout/onepage/review/button.phtml"/>
+            </block>
+            
+             
+        </reference>
+   --> 
+    <remove name="checkout.progress" />
+         <reference name="right">
+         <block type="page/html_wrapper" name="checkout.wrapper" translate="label">
+                <label>Checkout Progress Wrapper</label>
+                <action method="setElementId"><value>checkout-progress-wrapper</value></action>
+                <block type="checkout/cart" name="checkout.right" template="ship/right.phtml">
+            	<block type="checkout/cart_totals" name="checkout.cart.totals" as="totals" template="checkout/cart/totals.phtml"/>
+            	 <block type="checkout/cart_coupon" name="checkout.cart.coupon" as="coupon" template="ship/cart/coupon.phtml"/>
+           		 <block type="rewards/checkout_cart" name="points_cart_minibox" as="cartpoints_spender" template="rewards/checkout/cartmini.phtml" >
+                    <block type="rewards/checkout_cart_slider" name="points_cart_box.slider" as="points_slider" template="rewards/checkout/cart/slider.phtml" />
+                    <block type="core/template" name="points_cart_box.js" as="minicart_js" template="rewards/checkout/minicart_js.phtml" />
+                </block>
+                <block type="checkout/agreements" name="checkout.onepage.agreements" as="agreements" template="checkout/onepage/agreements.phtml"/>
+            <block type="core/template" name="checkout.onepage.review.button" as="button" template="checkout/onepage/review/button.phtml"/>
+            </block>
+            </block>
+            
+            
+             
+        </reference>
+    </checkout_onepage_index>
+    <checkout_onepage_review >
+    	<reference name="root">
+    		 <action method="setTemplate">
+                <template>ship/review/info.phtml</template>
+            </action>
+    		<block type="checkout/onepage_payment_info" name="payment_info">
+				<action method="setInfoTemplate">
+					<method></method>
+					<template></template>
+				</action>
+			</block>
+    	</reference>
+    
+    </checkout_onepage_review>
+    
+    
+</layout> 

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <posimg_adminhtml_posimg_index>
+        <reference name="content">
+            <block type="posimg/adminhtml_posimg" name="posimg" />
+        </reference>
+    </posimg_adminhtml_posimg_index>
+</layout>

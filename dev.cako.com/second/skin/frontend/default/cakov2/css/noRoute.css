@@ -1,0 +1,62 @@
+.cms-index-noroute .wrapper{
+    background: #fff;
+}
+.cms-index-noroute .msg-404-wrapper h1{
+    color: #3a96cf;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: AvenirLTStd-Heavy;
+    font-weight: bold;
+}
+.cms-index-noroute .msg-404-wrapper .four-o-four{
+    width: 35%;
+    margin: 0 auto;
+}
+/*.cms-index-noroute .msg-404-wrapper .four-o-four p{
+    float: left;
+    color: #777;
+    box-shadow: 0 0 3px #ccc;
+    padding: 2%;
+    margin-top: 15px;
+    font-family: AvenirLTStd-Roman;
+    font-weight: normal;
+}
+.cms-index-noroute .msg-404-wrapper .four-o-four p img{
+    float: left;
+    margin-right: 10px;
+}*/
+.cms-index-noroute .msg-404-wrapper .four-o-four .msg{
+    box-shadow: 0 0 3px #ccc;
+    padding: 2%;
+    display: table;
+}
+.cms-index-noroute .msg-404-wrapper .four-o-four .msg img{
+    vertical-align: middle;
+    margin-right: 10px;
+    display: table-cell;
+}
+.cms-index-noroute .msg-404-wrapper .four-o-four .msg span{
+    color: #777;
+    font-family: AvenirLTStd-Roman;
+    font-weight: normal;
+    vertical-align: middle;
+    display: table-cell;
+    width: 75%;
+}
+.cms-index-noroute .msg-404-wrapper .four-o-four small{
+    font-family: AvenirLTStd-Roman;
+    font-weight: normal;
+}
+.cms-index-noroute .msg-404-wrapper .four-o-four small.a-left{
+    float: left;
+    padding-left: 3%;
+    color: #777;
+    margin-top: 5px;
+}
+.cms-index-noroute .msg-404-wrapper .four-o-four small.a-right a{
+    float: right;
+    padding-right: 3%;
+    color: #e77da3;
+    margin-top: 5px;
+}

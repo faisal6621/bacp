@@ -1,0 +1,40 @@
+<div class="banner-osp">
+    <?php /* ?>
+      <img src="<?php echo Mage::getBaseUrl('media') . "theme/" . Mage::getStoreConfig('hero/hero_group/hero_input5') ?>" />
+      <?php */ ?>
+    <img src="<?php echo $this->getSkinUrl('images/banner-cupcake-osp.png'); ?>" alt="  " />
+    <p><?php echo $this->__('Thank You For Your Order!'); ?></p>
+</div>
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+
+<?php if ($this->getOrderId()): ?>
+    <div class="page-title">
+        <h1><?php echo $this->__('Your Order Number is <strong>%s</strong>', $this->getOrderId()) ?></h1>
+        <small><?php echo $this->__('Order confirmation has been sent to you at the email address you provided.'); ?>
+            <a href="<?php echo Mage::getBaseUrl(); ?>"><strong><?php echo $this->__('CONTINUE SHOPPING'); ?></strong></a>
+        </small>
+        <?php echo $this->getChildHtml('buttons') ?>
+    </div>
+<?php endif; ?>
+
+<?php if ($this->getAgreementRefId()): ?>
+    <p><?php echo $this->__('Your billing agreement # is: %s.', sprintf('<a href="%s">%s</a>', $this->escapeHtml($this->getAgreementUrl()), $this->escapeHtml($this->getAgreementRefId()))) ?></p>
+<?php endif; ?>
+
+<?php if ($profiles = $this->getRecurringProfiles()): ?>
+    <p><?php echo $this->__('Your recurring payment profiles:'); ?></p>
+    <ul class="disc">
+        <?php foreach ($profiles as $profile): ?>
+            <?php $profileIdHtml = ($this->getCanViewProfiles() ? sprintf('<a href="%s">%s</a>', $this->escapeHtml($this->getProfileUrl($profile)), $this->escapeHtml($this->getObjectData($profile, 'reference_id'))) : $this->escapeHtml($this->getObjectData($profile, 'reference_id'))); ?>
+            <li><?php echo $this->__('Payment profile # %s: "%s".', $profileIdHtml, $this->escapeHtml($this->getObjectData($profile, 'schedule_description'))) ?></li>
+        <?php endforeach; ?>
+    </ul>
+<?php endif; ?>
+<?php if ($this->getOrderId()): ?>
+    <div class="order-details-container"><?php echo $this->getLayout()->createBlock('sales/order_items')->setTemplate('ordersuccesspage/items.phtml')->toHtml(); ?></div>
+    <div class="order-summary-container"><?php echo $this->getLayout()->createBlock('sales/order_info')->setTemplate('ordersuccesspage/info.phtml')->toHtml(); ?></div>
+<?php endif; ?>
+<?php /*
+<div class="buttons-set">
+    <button type="button" class="button" title="<?php echo $this->__('Continue Shopping') ?>" onclick="window.location = '<?php echo $this->getUrl() ?>'"><span><span><?php echo $this->__('Continue Shopping') ?></span></span></button>
+</div>

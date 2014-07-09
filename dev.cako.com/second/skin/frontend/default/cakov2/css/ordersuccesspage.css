@@ -1,0 +1,237 @@
+.checkout-onepage-success .banner-osp{
+    position: relative;
+    margin-bottom: 20px;
+}
+.checkout-onepage-success .banner-osp p{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    font-size: 5.2em;
+    font-family: WendyLPStd-Bold;
+    color: #3a96cf;
+}
+.checkout-onepage-success .page-title h1, small{
+    width: 100%;
+    padding-left: 7px;
+}
+.checkout-onepage-success .page-title small{
+    color: #777;
+    font-family: AvenirLTStd-Roman;
+}
+.checkout-onepage-success .page-title strong{
+    color: #3a96cf;
+}
+.checkout-onepage-success div.order-details-container {
+    width: 64%;
+    float: left;
+    border-radius: 7px 7px 0 0;
+    overflow: hidden;
+    background-color:#fff;
+    box-shadow: 0px 1px 5px #aaa;
+}
+.checkout-onepage-success .order-details-container .order-details{
+    position: relative;
+}
+.checkout-onepage-success .order-details-container .order-details .order-actions{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.checkout-onepage-success .order-details h3{
+    background: url('../images/foot-top.png') repeat scroll 0px 0px transparent;
+    padding: 20px 20px 10px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1), -1px -1px 2px #777;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: AvenirLTStd-Black;
+}
+.checkout-onepage-success .order-details .order-items{
+    padding: 15px;
+}
+.checkout-onepage-success .order-details .order-items h4.product-name{
+    text-decoration: underline;
+    font-size: 18px !important;
+}
+.checkout-onepage-success .order-details .order-items table{
+    width: 100%;
+    margin-top: 10px;
+}
+.checkout-onepage-success .order-details .order-items table tr td {
+    width: 19%;
+    display: inline-block;
+    color: #777;
+    font-family: AvenirLTStd-Roman;
+}
+.checkout-onepage-success .order-details .order-items table tr td img {
+    box-shadow: 0 0 2px #aaa;
+}
+.checkout-onepage-success .order-details .order-items table tr td strong {
+    color: #3a96cf;
+}
+.checkout-onepage-success .order-details .order-items table tr td .price {
+    color: #3a96cf;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: AvenirLTStd-Roman;
+}
+.checkout-onepage-success .order-details .order-items table tr td:nth-child(2){
+    width: 40%;
+}
+.checkout-onepage-success .order-details .order-items table tr td:nth-child(3){
+    padding-left: 2%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.checkout-onepage-success .order-details .order-items table tr td:nth-child(3) strong{
+    font-family: AvenirLTStd-Heavy;
+}
+.checkout-onepage-success .order-details .order-items table tr td:last-child{
+    text-align: right;
+}
+.checkout-onepage-success .order-details .order-items dl.item-options dt{
+    color: #3a96cf;
+    font-style: normal;
+    font-family: AvenirLTStd-Heavy;
+    float: left;
+    text-transform: uppercase;
+    padding-right: 5px;
+}
+.checkout-onepage-success .order-details .order-items dl.item-options dt:after{
+    content: ': ';
+}
+.checkout-onepage-success .order-details .order-items hr{
+    height: 1px;
+    background-color: #aaa;
+}
+.checkout-onepage-success .order-details hr:last-child{
+    display: none;
+}
+.checkout-onepage-success div.order-summary-container {
+    width: 35%;
+    float: right;
+    border-radius: 7px 7px 0 0;
+    overflow: hidden;
+    background-color:#fff;
+    box-shadow: 0px 1px 5px #aaa;
+}
+.checkout-onepage-success .order-summary h3{
+    background: url('../images/foot-top.png') repeat scroll 0px 0px transparent;
+    padding: 20px 20px 10px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0,0,0,0), -1px -1px #777;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: AvenirLTStd-Black;
+}
+.checkout-onepage-success .order-summary .item-details{
+    width: 100%;
+    padding: 15px;
+    float: left;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+}
+.checkout-onepage-success .order-summary .item-details span.product-count{
+    float: left;
+    color: #777;
+    width: 40%;
+}
+.checkout-onepage-success .order-summary .item-details span.product-total{
+    float: right;
+    width: 40%;
+    text-align: right;
+    font-family: AvenirLTStd-Black;
+    font-size: 18px;
+}
+.checkout-onepage-success .order-summary .delivery-details{
+    width: 100%;
+    padding: 15px;
+    float: left;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
+}
+.checkout-onepage-success .order-summary .delivery-details h4{
+    font-family: AvenirLTStd-Black;
+    font-size: 18px;
+}
+.checkout-onepage-success .order-summary .delivery-details .delivery{
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+}
+.checkout-onepage-success .order-summary .delivery-details .delivery .icon{
+    float: left;
+    padding-right: 10px;
+}
+.checkout-onepage-success .order-summary .delivery-details .delivery .details{
+    float: left;
+}
+.checkout-onepage-success .order-summary .delivery-details .delivery .details h5{
+    font-family: WendyLPStd-Bold;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+    color: #FC9026;
+}
+.checkout-onepage-success .order-summary .delivery-details .delivery .details p.description{
+    color: #3A96CF;
+    margin: 0px;
+    padding: 0px;
+    font-family: AvenirLTStd-Black;
+    font-size: 15px;
+}
+.checkout-onepage-success .order-summary .delivery-details .delivery .details p.date{
+    font-family: AvenirLTStd-Black;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.checkout-onepage-success .order-summary .delivery-details .delivery .details p.date span{
+    font-family: AvenirLTStd-Roman;
+    color: #777;
+}
+.checkout-onepage-success .order-summary .price-details{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    position: relative;
+    /*margin-bottom: 40px;*/
+}
+.checkout-onepage-success .order-summary .price-details ul{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+}
+.checkout-onepage-success .order-summary .price-details ul.grand_total {
+    border: none !important;
+    margin-bottom: 35px;
+}
+.checkout-onepage-success .order-summary .price-details ul li:first-child{
+    width: 60%;
+    float: left;
+    color: #777;
+}
+.checkout-onepage-success .order-summary .price-details ul li:last-child{
+    width: 38%;
+    float: right;
+}
+.checkout-onepage-success .order-summary .price-details ul li:last-child .price{
+    color: #704333;
+}
+.checkout-onepage-success .order-summary .price-details ul.discount li:last-child .price{
+    color: #53cb83;
+    font-family: AvenirLTStd-Black;
+    font-size: 18px;
+}
+.checkout-onepage-success .order-summary .price-details ul.grand_total li, li:last-child strong span.price{
+    color: #3a96cf !important;
+    font-size: 22px;
+}
+.checkout-onepage-success .order-summary .price-details .payment-details{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 12px;
+    font-family: AvenirLTStd-Roman;
+    color: #777;
+}
